@@ -1,0 +1,10 @@
+AC_TYPEID;AC_GROUPNAME;SSD_NAME;MANUFACTURER;LONG_NAME;SHORT_NAME;BEGIN_DATE;END_DATE
+686;Jet, 2-Engine;Bombardier Ljet45;Bombardier;Learjet45;Lear-45;2010-01-01;
+685;Jet, 2-Engine;Cessna 510/560Xl;Cessna;Cessna 510 Mustang/560Xl Citation Excel;Ce-560Xl;2010-01-01;
+821;Jet, 4-Engine/6-Engine;Boeing B747-8F;Boeing;Boeing B747-8F;B747-8F;2010-01-01;
+609;Jet, 2-Engine;Challenger 300;Bombardier;Bombardier Bd-100-1A10 Challenger 300;Bd-300;2010-01-01;
+393;Helicopter/Stol;Agustawestland 139;Agustawestland;Agustawestland Aw139;Aw139;2010-01-01;
+431;Turbo-Prop, 1-Engine/2-Engine;Socata Tbm850;Socata;Socata Tbm850;Tbm850;2010-09-01;
+340;Helicopter/Stol;Eurocompter As350;American Eurocopter;Eurocompter As350 B2 Astar;As350 B2;2010-12-01;
+422;Turbo-Prop, 1-Engine/2-Engine;Quest Kodiak 100;Kodiak;Quest Kodiak 100;Kodiak;2011-07-01;
+887;Jet, 2-Engine;B787-8 Dreamliner;Boeing;B787-800 Dreamlines;B787-8;2012-01-01;

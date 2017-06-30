@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>11414</QvBuildNo>
+   <CreatorDoc>C:\Users\Mike\Dropbox\QlikView Book\Book Files\Final Pack\Chapters 1 - 11\QlikView Development\Airline Operations\Apps\Solution_Chapter 8_Airline Operations.qvw</CreatorDoc>
+   <CreateUtcTime>2012-11-11 01:53:45</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>Aircraft Types</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>%Aircraft Type ID</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>180</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>1620</Length>
+       <Comment>Primary key of the Aircraft Type dimension</Comment>
+       <Tags>
+         <String>$key</String>
+         <String>$hidden</String>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Aircraft Name</FieldName>
+       <BitOffset>8</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>180</NoOfSymbols>
+       <Offset>1620</Offset>
+       <Length>2815</Length>
+       <Comment>The name of the aircraft</Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Aircraft Manufacturer</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>53</NoOfSymbols>
+       <Offset>4435</Offset>
+       <Length>780</Length>
+       <Comment>The name of the manufacturer of the aircraft, left blank when the aircraft is a generic type</Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Aircraft Manufacturer Country</FieldName>
+       <BitOffset>44</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>14</NoOfSymbols>
+       <Offset>5215</Offset>
+       <Length>141</Length>
+       <Comment>The country in which the manufacturer of the aircraft is based</Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Aircraft Name Full</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>180</NoOfSymbols>
+       <Offset>5356</Offset>
+       <Length>4344</Length>
+       <Comment>The full name of the aircraft</Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Aircraft Name Abbreviated</FieldName>
+       <BitOffset>24</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>178</NoOfSymbols>
+       <Offset>9700</Offset>
+       <Length>1504</Length>
+       <Comment>The abbreviated name of the aircraft</Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Aircraft Begin Date</FieldName>
+       <BitOffset>38</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>41</NoOfSymbols>
+       <Offset>11204</Offset>
+       <Length>656</Length>
+       <Comment>The date when the aircraft was first entered into the database</Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Aircraft End Date</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>11860</Offset>
+       <Length>2</Length>
+       <Comment>The date when the aircraft was removed from the database</Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Aircraft Age Classification</FieldName>
+       <BitOffset>54</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>11862</Offset>
+       <Length>18</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Aircraft Engine Type</FieldName>
+       <BitOffset>52</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>11880</Offset>
+       <Length>42</Length>
+       <Comment>The engine type of the aircraft: Helicopter, Piston, Turbo-Prop or Jet</Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Aircraft Number Of Engines</FieldName>
+       <BitOffset>48</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>7</NoOfSymbols>
+       <Offset>11922</Offset>
+       <Length>120</Length>
+       <Comment>The number of engines on the aircraft</Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>7</RecordByteSize>
+   <NoOfRecords>180</NoOfRecords>
+   <Offset>12042</Offset>
+   <Length>1260</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>AUTOGENERATE</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=..\Data Files\MDBs\Dimension Tables.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+	FROM `Destination Airports`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=..\Data Files\MDBs\Dimension Tables.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+	FROM `Origin Airports`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=..\Data Files\MDBs\Dimension Tables.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Destination Airports]:
+	Left Keep ([Main Data])
+	LOAD `%Destination Airport ID`,
+	    `Destination Airport`;SQL SELECT *
+	FROM `Destination Airports`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=..\Data Files\MDBs\Dimension Tables.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Origin Airports]:
+	Left Keep ([Main Data])
+	LOAD `%Origin Airport ID`,
+	    `Origin Airport`;SQL SELECT *
+	FROM `Origin Airports`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>RESIDENT Main Data</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\users\mike\dropbox\qlikview book\book files\final pack\chapters 1 - 11\qlikview development\airline operations\data files\csvs\aircraft_2010_update.csv</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\users\mike\dropbox\qlikview book\book files\final pack\chapters 1 - 11\qlikview development\airline operations\data files\csvs\aircraft_base_file.csv</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\users\mike\dropbox\qlikview book\book files\final pack\chapters 1 - 11\qlikview development\airline operations\data files\csvs\aircraft_group.csv</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\users\mike\dropbox\qlikview book\book files\final pack\chapters 1 - 11\qlikview development\airline operations\data files\csvs\aircraft_manufacturers.csv</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\users\mike\dropbox\qlikview book\book files\final pack\chapters 1 - 11\qlikview development\airline operations\data files\csvs\destination markets.csv</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\users\mike\dropbox\qlikview book\book files\final pack\chapters 1 - 11\qlikview development\airline operations\data files\csvs\origin markets.csv</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\users\mike\dropbox\qlikview book\book files\final pack\chapters 1 - 11\qlikview development\airline operations\data files\excel\comments.xls</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\users\mike\dropbox\qlikview book\book files\final pack\chapters 1 - 11\qlikview development\airline operations\data files\qvds\airlines.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\users\mike\dropbox\qlikview book\book files\final pack\chapters 1 - 11\qlikview development\airline operations\data files\qvds\carrier groups.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\users\mike\dropbox\qlikview book\book files\final pack\chapters 1 - 11\qlikview development\airline operations\data files\qvds\carrier operating region.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\users\mike\dropbox\qlikview book\book files\final pack\chapters 1 - 11\qlikview development\airline operations\data files\qvds\distance groups.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\users\mike\dropbox\qlikview book\book files\final pack\chapters 1 - 11\qlikview development\airline operations\data files\qvds\flight data.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\users\mike\dropbox\qlikview book\book files\final pack\chapters 1 - 11\qlikview development\airline operations\data files\qvds\flight types.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\users\mike\dropbox\qlikview book\book files\final pack\chapters 1 - 11\qlikview development\airline operations\data files\qvds\t_f41schedule_p1a_emp.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment>Dimension containing information on aircrafts, including engine types and configuration and manufacturer</Comment>
+ </QvdTableHeader>
+ ∂  694 ∫  698 d  612 h  616 k  619 t  628 ë  657 n  622 ≥  691 ¥  692 u  629 ¢  674 §  676 Ñ  644 £  675 i  617 ∏  696 É  643 {  635 Ä  640 l  620 m  621 `  608 è  655 •  677 f  614 o  623 p  624 q  625 z  634 }  637 ~  638 w  631 ê  656 r  626 ¶  678 ª  699 Ü  646 s  627 °  673 Ø  687 í  658 Ö  645 ä  650 ≤  690 ã  651 ¨  684 á  647 µ  693 y  633 Å  641 Ç  642 ß  679 π  697 ™  682 õ  667 ü  671 ©  681 à  648 |  636 ´  683 ù  669 å  652 ú  668 ç  653 é  654 ^  606 ô  665 ó  663 â  649 ®  680 x  632 †  416 ï  405 Î  491 »  456 ñ  406 ú  412 °  417 ∫  442 „  483 ﬂ  479 «  455 À  459 ”  467 ‰  484 ‚  482 Õ  461 ‹  476 Æ  430 π  441 Ê  486 ¡  449 Â  485 Á  487 ’  469 …  457 ﬁ  478 ü  415 È  489 ó  407 ì  403 î  404    458 ¬  450 ¿  448 ÷  470 ù  413 ,  556 ˚  507 )  553 }   125 ¬   194 É   131 ™   170 u   117 n   110 √   195 ñ   150 g   103 Ö   133 o   111 †   160 g  871 j  874 \  860 i  873 p  880 3  819 1  817 4  820 a  865 f  870 2  818 T  852 `  864 0  816 h  872 r  882 ^  862 m  877 6  822 z  890 S  851 V  854 7  823 À  715 ⁄  730 ‹  732 ‰  740 ∆  710 ﬂ  735   770 ›  733   775   771 #   035 $   036 O   079 (   040 *   042 [   091    030 
+   010 !   033 "   034 '   039 ⁄   218 “   210 Ü  390 h  360 ;  315 Æ  686 ≠  685 5  821 a  609 â  393 Ø  431 T  340 ¶  422 A320-100/200 A319 Boeing 737-700/Lr Boeing 737-500 Boeing 737-300 Canadair Rj-100/Er Bombardier Crj 705 Boeing 757-200 A300-600/R/Cf/Rcf A310-200C/F Rj-200Er/Rj-440 Embraer-135 Embraer-140 A-318 Embraer-145 Boeing 737-400 A330-200 Westwind Ii Douglas Dc-9-15F Douglas Dc-9-30 Boeing 737-100/200 Boeing 737-200C Boeing 717-200 Md-80,1,2,3,8 Embraer-170 Boeing 737-800 Boeing 757-300 Boeing 767-400/Er Boeing 767-200/Er Boeing 737-900 Boeing 777-300/Er Canadair Crj 900 Canadair Rj-700 Md-90 Boeing 767-300/Er Embraer 190 A321 Cssna Citationiii Boeing 777-200/Lr Embraer-175 Airbus A330-300 Bombardier Bd-700 Douglas Dc-9-40 Douglas Dc-9-50 A300B/C/F-100/200 Gulfsteam G150 Beech Hawker 800Xp Cssna Citation X A310-300 Boeing 737-600 Gulfstream G-Iv Beech Hawker 400Xp Grumman G-1159 A340 Dassault 2000Ex Gulfstream V/ G-V Gulfstream G450 Dassault Falcon Gulfstream G200 Cessna Citation Boeing B777-F Challenger 604/605 Canadair Cl-600 Challenger 601 Cessna Ce-680 Md-87 Beechcraft Premier Bae Hs-125 Lear-35 Tupolev Tu-204 Caravelle Se-210 Dornier 328 Jet Cessna 208 Beech 1900 A/B/C/D Dehavilland Dhc8-2 Saab-Fairchd 340/B Beech 200 Kingair Casa 212 Cessna 406 Atr-72 Dhc8-100 Dash 8 Pilatus Pc-12 Fairchild Metro 23 Saab-Frchild 340/A Swearingen Metro 3 Dhc8-300 Dash 8 Dhc8-Q400  Dash-8 Emb-120 Brasilia Piper Pa-30/31T Convair Cv-580 Atr-42 Short Harland Sc-7 Dornier 328 Dehavilland Dhc-6 Shorts 330 Bae Jetstream 31 Beech King Air Piper T-1040 Cessna C208B Shorts 360 Bae-748 Beech 99 Beech C99 Beech B-350 F-27 Dornier 228 Gulfstream I Casa 235 Lockheed L100-30 Antonov 12 Lockheed L100-10 Cessna C-402/402A Piper Pa-31/T-1020 Britt-Norman Bn2/A Grumman G-21A Beech Baron B-55 Beech 18 Piper Pa-34/39 Curtiss C46 Series Aero Comandr 500/6 Beech Queen Air Beech Kingair 90 Douglas Dc-3 A340-300 A340-600 Douglas Dc-8-71 A340-200 Antonov 124 Boeing 747-400 Boeing 747-200/300 Boeing 747-4F Douglas Dc-8-73F Lockheed Jetstar Boeing 747C Douglas Dc-8-63F Douglas Dc-8-73 Boeing 747-100 A340-500 A380-800 Douglas Dc-8-72 Ilyushin 76/Td Boeing 747Sp Antonov 225 Douglas Dc-8-61 Douglas Dc-8-62 Boeing 747-200F Boeing 727-200 Douglas Dc-10-10 Douglas Dc-10-30 Md-11 Boeing 727-100 Douglas Dc-10-30Cf Falcon 900 Douglas Dc-10-40 Dassault Falcon 7X Falcon 50 Cessna 206/207/209 Cessna 172 Skyhawk Piper Pa-32 Dehavilland Dhc2 Dehavilland Dhc3 Flt/Amphib Turbine Cessna 180 Beech 35/36 Cessna 185A/B/C Helio H250/295/395 Cessna 182 Skylane Douglas Dc-6A Douglas Dc-4 Sikorsky S-76 Robinson R44 Bell B-206A Bombardier Ljet45 Cessna 510/560Xl Boeing B747-8F Challenger 300 Agustawestland 139 Socata Tbm850 Eurocompter As350 Quest Kodiak 100 Airbus Industrie Boeing Canadair Bombardier Embraer Israel Aircraft Industries Mcdonnell Douglas Cessna Gulfsteam Raytheon Beechcraft Gulfstream Aerospace Gulfstream Dassault Dassault-Breguet British Aerosp/Hawker Siddeley Gates Learjet Tupolev Aerospatiale Fairchild Dornier Beechcraft Saab-Fairchild Construcciones Aeronauticas,Sa Aerospatiale/Aeritalia Dehavilland Pilatus Fairchild Fairchild Swearingen Piper Convair Short Bros. British Aerospace Fokker/Fairchild Dornier Gulfstream Aerospace (Grumman) Lockheed Antonov Design Bureau Pilatus Britten-Norman Grumman Curtiss-Wright Rockwell Antonov Ilyushin Dassault Falcon Dehavilland Of Canada  Helio Sikorsky Robinson Bell Agustawestland Socata American Eurocopter Kodiak France United States Canada Brazil Israel United Kingdom Russia Sweden Spain Switzerland The Netherlands Ukraine Unknown Italy Airbus Industrie A320-100/200 Airbus Industrie A319 Boeing 737-700/700Lr Boeing 737-500 Boeing 737-300 Canadair Rj-100/Rj-100Er Bombardier Crj 705 Boeing 757-200 Airbus Industrie A300-600/R/Cf/Rcf Airbus Industrie A310-200C/F Canadair Rj-200Er /Rj-440 Embraer-135 Embraer-140 Airbus Industrie A-318 Embraer-145 Boeing 737-400 Airbus Industrie A330-200 1124A Westwind Ii Mcdonnell Douglas Dc-9-15F Mcdonnell Douglas Dc-9-30 Boeing 737-100/200 Boeing 737-200C Boeing 717-200 Mcdonnell Douglas Dc9 Super 80/Md81/82/83/88 Embraer 170 Boeing 737-800 Boeing 757-300 Boeing 767-400/Er Boeing 767-200/Er/Em Boeing 737-900 Boeing 777-300/300Er/333Er Canadair Crj 900 Canadair Rj-700 Mcdonnell Douglas Md-90 Boeing 767-300/300Er Embraer 190 Airbus Industrie A321 Cessna Citation X Model 650/550B/550Xl Boeing 777-200/200Lr/233Lr Embraer Erj-175 Airbus A330-300 Bombardier Bd-700 Global Express Mcdonnell Douglas Dc-9-40 Mcdonnell Douglas Dc-9-50 Airbus Industrie A300B/C/F-100/200 Gulfstream G150 Raytheon Beechcraft Hawker 800Xp Cessna Citation X Model Ce750 X Airbus Industrie A310-300 Boeing 737-600 Gulfstream Aerospace G-Iii/G-Iv Raytheon Beechcraft Hawker 400Xp Grumman G-1159 Gulfstream Ii/Iii Airbus Industrie A340 Dassault Falcon 2000Ex Gulfstream Iii/V/ G-V Exec/ G-5/550 Gulfstream G450 Dassault-Breguet Mystere-Falcon Gulfstream G200 Cessna Citation Ii/ Bravo Boeing B777-F Bombardier Challenger 604/605 Canadair Cl-600 Challenger Canadair (Bombardier) Challlenger 601 Cessna Ce-680 Citation Sovereign Mcdonnell Douglas Dc9 Super 87 Raytheon Beechraft 390 Premier I Hawker Siddeley 125 Gates Learjet Lear-31/35/36 Tupolev Tu-204-300 Aerospatiale Caravelle Se-210 Dornier 328 Jet Cessna 208 Caravan Beech 1900 A/B/C/D Dehavilland Dhc8-200Q Dash-8 Saab-Fairchild 340/B Beech 200 Super Kingair Casa/Nurtanio C212 Aviocar Cessna 406 Caravan Ii Aerospatiale/Aeritalia Atr-72 Dehavilland Dhc8-100 Dash-8 Pilatus Pc-12 Fairchild Metro 23 Saab-Fairchild 340/A Swearingen Metro Iii Dehavilland Dhc8-300 Dash 8 Dehavilland Dhc8-400 Dash-8 Embraer Emb-120 Brasilia Piper Pa-30/31T Cheyenne Ii Xl Convair Cv-580 Aerospatiale/Aeritalia Atr-42 Shorts Harland Sc-7 Skyvan Dornier 328 Dehavilland Twin Otter Dhc-6 Shorts 330 British Aerospace Jetstream 31 Beech King Air C-90 Piper T-1040 Cessna C208B/Grand Caravan Shorts 360 British Aerospace (Hawker-Siddeley) Bae-748 Beech 99 Airliner Beech C99 Beechcraft Super King Air Fokker Friendship F-27/Fairchild F-27/A/B/F/J Dornier 228 Gulfstream I Casa 235 Lockheed L100-30/L-382E Antonov 12 Lockheed L100-10 Hercules Cessna C-402/402A/402B Piper Pa-31 (Navajo)/T-1020 Pilatus Britten-Norman Bn2/A Islander Grumman G-21A (Goose) Beech Baron (55 Series) Beech 18 C-185 Piper Pa-34/39 (Twin Commanche) Curtiss C46/20T/A/D/F/R Commando Aero Commander (500/600 Series Excpt 680Fl) Beech 65/65A-80/65B-80 (Queen Air) Beech King Air 90 Mcdonnell Douglas Dc-3/A/C,C-47/B Airbus Industrie A340-300 Airbus Industrie A340-600 Mcdonnell Douglas Dc-8-71 Airbus Industrie A340-200 Antonov 124 Boeing 747-400 Boeing 747-200/300 Boeing 747-400F Mcdonnell Douglas Dc-8-73F Lockheed Jetstar Boeing 747C Mcdonnell Douglas Dc-8-63F Mcdonnell Douglas Dc-8-73 Boeing 747-100 Airbus Industrie A340-500 Airbus Industrai A380-800 Mcdonnell Douglas Dc-8-72 Ilyushin 76/Td Boeing 747Sp Antonov 225 (6 Engine) Mcdonnell Douglas Dc-8-61 Mcdonnell Douglas Dc-8-62 Boeing 747-200F Boeing 727-200/231A Mcdonnell Douglas Dc-10-10 Mcdonnell Douglas Dc-10-30 Mcdonnell Douglas Md-11 Boeing 727-100 Mcdonnell Douglas Dc-10-30Cf Dassault Falcon 900 Mcdonnell Douglas Dc-10-40 Dassault Falcon 7X Dassault Falcon 50 Cessna C206/207/209/210 Stationair Cessna 172 Skyhawk Piper Pa-32 (Cherokee 6) Dehavilland Dhc2 Beaver Dehavilland Dhc3 Otter Float/Amphib Turbine Cessna 180 Beech Bonanza 35A/C/D/E/G/H/J/K/S/V/  36A Cessna 185A/B/C Skywagon Helio H-250/295/395 Cessna 182 Skylane Mcdonnell Douglas Dc-6A Mcdonnell Douglas Dc-4(C54/C54A/C54B/C54E) Sikorsky S-76 Robinson R44 Bell B-206A Learjet45 Cessna 510 Mustang/560Xl Citation Excel Boeing B747-8F Bombardier Bd-100-1A10 Challenger 300 Agustawestland Aw139 Socata Tbm850 Eurocompter As350 B2 Astar Quest Kodiak 100 A320-1/2 A319 B737-7 B737-5 B737-3 Rj100/Er Crj-705 B757-2 A300-6 A310-2Cf Crj-2/4 Emb-135 Emb-140 A318 Emb-145 B737-4 A330-2 Westwind Dc-9-15F Dc-9-30 B737-1/2 B737-2C B717-2 Md-80 Emb-170 B737-8 B757-3 B767-4 B767-2/R B737-9 B777-3 Crj-900 Rj-700 Md-90 B767-3/R Emb-190 A321 Citatnx B777-2 Erj-175 A330-3 Bd-700 Dc-9-40 Dc-9-50 A300-1/2 G150 800Xp Ce-750X A310-3 B737-6 G-Iii/Iv Hawker G-Iii A340 Da-2000 G-V G450 Falcon G200 Citatnii B777-F Cl-604/5 Cl-600 Cl-601 Ce-680 Md-87 Premier Hs-125 Lear-35 Tu-204 Caravlle Do-328 J Caravan Be-1900 Dhc8-200 Sf-340/B Kingair C212 Caravnii Atr-72 Dash8-1 Pc-12 Metro 23 Sf-340/A Metro3 Dhc8-300 Dash8-Q4 Emb-120 Pa-31T Cv-580 Atr-42 Skyvan Do-328 Dhc-6 Short330 Jetstm31 Pa-T1040 Ce-208B Short360 Bae-748 Be-99 Be-C99 Be-King F-27 Do-228 G-159 C 235 Hercules An-12 Ce-402 Navajo Islander Goose Baron Be-18C Twncoman Commando Commandr Queenair King Air Dc-3 A340-3 A340-6 Dc-8-71 A340-2 An-124 B747-4 B747-2/3 B747-4F Dc-8-73F Jetstar B747C Dc-8-63F Dc-8-73 B747-100 A340-5 A380-8 Dc-8-72 Il-76/Td B747Sp An-225 Dc-8-61 Dc-8-62 B747-2F B727-2 Dc-10-10 Dc-10-30 Md-11 B727-100 Dc10-30F Fa-900 Dc-10-40 7X Fa-50 Ce-206/7 Skyhawk Pa-32 Beaver Otter Flt/Amph Ce-180 Bonanza Skywagon Courier Skylane Dc-6A Dc-4 S-76 R44 B-206A Lear-45 Ce-560Xl B747-8F Bd-300 Aw139 Tbm850 As350 B2 Kodiak jÄ  1990-01-01 gä  1997-01-01 ‘ã  1998-01-01 ÌÑ  1993-03-01 hñ  2005-06-01 ê  2001-01-01 çì  2003-06-01 ˘à  1996-01-01 DÉ  1992-01-01 Üõ  2009-01-01 Aç  1999-01-01 üî  2004-03-01 „ë  2002-04-01 1ì  2003-03-01 åá  1995-01-01 ó  2005-12-01 ‚o  1978-06-01 Ü  1994-01-01 cî  2004-01-01 ∞ö  2008-06-01 ;ú  2009-07-01 1ò  2006-09-01 öí  2002-10-01 òó  2006-04-01 ä  1996-10-01 ˘ô  2007-12-01 πí  2002-11-01 âë  2002-01-01 ƒñ  2005-09-01 IÖ  1993-06-01 Oò  2006-10-01 Æé  2000-01-01 *ä  1996-11-01 Ìâ  1996-09-01 Œö  2008-07-01 *õ  2008-10-01  í  2002-06-01 Ûú  2010-01-01 Êù  2010-09-01 Aû  2010-12-01 ü  2011-07-01  Current Classic Jet Turbo-Prop Piston Helicopter/Stol 2-Engine 1-Engine/2-Engine 4-Engine 4-Engine/6-Engine 3-Engine 1-Engine/Combined Single Engine 3-Engine/4-Engine       @ Å¬ !  				  
+
+
+
+B Ñ0D1Äƒ1 EBÅƒ2ÅÅÅ¡C#     !!!!Ü""""####ƒ3$$$$  %%%%B&&&&A''''ƒ2((((Ä))))!****++++,,,,  ----»....	////G0000  11112222J3333I4444K5555 6666L7777ä8888À9999 ::::»;;;;á<<<<====!>>>>¬$????!@@@@«AAAABBBB	CCCCéSDDDD EEEEPfFFFF GGGGRHHHHIIIIJJJJÉ&KKKKpLLLLìMMMMÄNNNN«OOOO PPPPPQQQQòíRRRRôSSSSwTTTTUUUUPVVVVóRWWWW0XXXXõYYYYZZZZ [[[[P\\\\R]]]]P^^^^P____P```LSaaa`bbbaácccbPdddcPeeedfffegggfìhhhg†iiih  jjji!kkkjÄlllk"mmml„∑nnnk"ooom"pppn"qqqo$ê"rrrp%"sssq"tttr"uuus"vvvt&"wwwu'"xxxv"yyyw"zzzx"{{{y@|||z@}}}{~~~|@}(∞ÄÄÄ~ÅÅÅÇÇÇÄÉÉÉÅÑÑÑÇ"ÖÖÖÉÜÜÜÑáááÖàààÜâââá@äääàÄãããâåååä)`çççãéééå(∞èèèçêêêéëëëèíííêìììëîîîíïïïìñññîóóóïòòòñ™ôôôóöööòÍõõõô™úúúö'ùùùõ'ûûûú'üüüù+ '†††û+ '°°°ü,¿'¢¢¢†'£££°'§§§¢'•••£-'¶¶¶§'ßßß•(®®®¶(©©©ßÆ7™™™®/7´´´©07¨¨¨™C)≠≠≠´GÆÆÆ¨AØØØ≠C)∞∞∞ÆqŸ0±±±Ø≤	≤≤≤∞Û0≥≥≥±4
