@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>11282</QvBuildNo>
+   <CreatorDoc>C:\Users\Mike\Projects\Other\Airlines\QlikView Files\Cross Table - Employment Statistics.qvw</CreatorDoc>
+   <CreateUtcTime>2012-06-02 21:54:46</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>Employment Data</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>%Key</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>255</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>20811</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Year</FieldName>
+       <BitOffset>126</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>20811</Offset>
+       <Length>30</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Airline ID</FieldName>
+       <BitOffset>104</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>83</NoOfSymbols>
+       <Offset>20841</Offset>
+       <Length>913</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Unique Carrier Code</FieldName>
+       <BitOffset>112</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>83</NoOfSymbols>
+       <Offset>21754</Offset>
+       <Length>359</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Unique Carrier</FieldName>
+       <BitOffset>119</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>88</NoOfSymbols>
+       <Offset>22113</Offset>
+       <Length>2185</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Carrier Code</FieldName>
+       <BitOffset>128</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>85</NoOfSymbols>
+       <Offset>24298</Offset>
+       <Length>363</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Carrier Name</FieldName>
+       <BitOffset>136</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>88</NoOfSymbols>
+       <Offset>24661</Offset>
+       <Length>2177</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Carrier Group ID (Old)</FieldName>
+       <BitOffset>144</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>26838</Offset>
+       <Length>21</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Carrier Group ID</FieldName>
+       <BitOffset>146</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>26859</Offset>
+       <Length>28</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>01</FieldName>
+       <BitOffset>8</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>213</NoOfSymbols>
+       <Offset>26887</Offset>
+       <Length>2025</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>02</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>210</NoOfSymbols>
+       <Offset>28912</Offset>
+       <Length>1996</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>03</FieldName>
+       <BitOffset>24</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>212</NoOfSymbols>
+       <Offset>30908</Offset>
+       <Length>2019</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>04</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>213</NoOfSymbols>
+       <Offset>32927</Offset>
+       <Length>2024</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>05</FieldName>
+       <BitOffset>40</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>213</NoOfSymbols>
+       <Offset>34951</Offset>
+       <Length>2026</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>06</FieldName>
+       <BitOffset>48</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>212</NoOfSymbols>
+       <Offset>36977</Offset>
+       <Length>2019</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>07</FieldName>
+       <BitOffset>56</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>213</NoOfSymbols>
+       <Offset>38996</Offset>
+       <Length>2027</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>08</FieldName>
+       <BitOffset>64</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>216</NoOfSymbols>
+       <Offset>41023</Offset>
+       <Length>2054</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>09</FieldName>
+       <BitOffset>72</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>210</NoOfSymbols>
+       <Offset>43077</Offset>
+       <Length>2004</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>10</FieldName>
+       <BitOffset>80</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>209</NoOfSymbols>
+       <Offset>45081</Offset>
+       <Length>1992</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>11</FieldName>
+       <BitOffset>88</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>210</NoOfSymbols>
+       <Offset>47073</Offset>
+       <Length>2001</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>12</FieldName>
+       <BitOffset>96</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>211</NoOfSymbols>
+       <Offset>49074</Offset>
+       <Length>2008</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>19</RecordByteSize>
+   <NoOfRecords>255</NoOfRecords>
+   <Offset>51082</Offset>
+   <Length>4845</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>C:\Users\Mike\Projects\Other\Airlines\QlikView Files\QVDs\T_F41SCHEDULE_P1A_EMP.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+ 2009 | 21161 | 09Q | Swift Air, LLC | 09Q | Swift Air, LLC | 1 | 4 2009 | 20397 | 16 | PSA Airlines Inc. | 16 | PSA Airlines Inc. | 2 | 2 2009 | 20408 | 3Z | Tatonduk Flying Service | 3Z | Tatonduk Flying Service | 1 | 1 2009 | 19917 | 5X | United Parcel Service | 5X | United Parcel Service | 3 | 3 2009 | 20007 | 5Y | Atlas Air Inc. | 5Y | Atlas Air Inc. | 3 | 3 2009 | 19874 | 8C | Air Transport International | 8C | Air Transport International | 2 | 2 2009 | 20363 | 9E | Pinnacle Airlines Inc. | 9E | Pinnacle Airlines Inc. | 2 | 2 2009 | 20254 | 9L | Colgan Air | 9L | Colgan Air | 1 | 1 2009 | 20190 | 9S | Southern Air Inc. | 9S | Southern Air Inc. | 2 | 2 2009 | 19805 | AA | American Airlines Inc. | AA | American Airlines Inc. | 3 | 3 2009 | 20453 | ABX | ABX Air, Inc. | ABX | ABX Air, Inc. | 3 | 3 2009 | 20354 | AJQ | Aerodynamics Inc. | AJQ | Aerodynamics Inc. | 1 | 1 2009 | 20201 | AMQ | Ameristar Air Cargo | AMQ | Ameristar Air Cargo | 1 | 4 2009 | 19678 | KH | Aloha Air Cargo | AQ | Aloha Air Cargo | 1 | 1 2009 | 19930 | AS | Alaska Airlines Inc. | AS | Alaska Airlines Inc. | 3 | 3 2009 | 20409 | B6 | JetBlue Airways | B6 | JetBlue Airways | 3 | 3 2009 | 20406 | BNQ | NetJets Large Aircraft Company L.L.C. | BNQ | NetJets Large Aircraft Company L.L.C. | 1 | 4 2009 | 19704 | CO | Continental Air Lines Inc. | CO | Continental Air Lines Inc. | 3 | 3 2009 | 21167 | CP | Compass Airlines | CP | Compass Airlines | 1 | 1 2009 | 20017 | CS | Continental Micronesia | CS | Continental Micronesia | 2 | 2 2009 | 19790 | DL | Delta Air Lines Inc. | DL | Delta Air Lines Inc. | 3 | 3 2009 | 20357 | ER | Astar USA, LLC | ER | Astar Air Cargo Inc. | 2 | 2 2009 | 20366 | EV | Atlantic Southeast Airlines | EV | Atlantic Southeast Airlines | 3 | 3 2009 | 20057 | EZ | Evergreen International Inc. | EZ | Evergreen International Inc. | 2 | 2 2009 | 20436 | F9 | Frontier Airlines Inc. | F9 | Frontier Airlines Inc. | 3 | 3 2009 | 20203 | FCQ | Falcon Air Express | FCQ | Falcon Air Express | 1 | 4 2009 | 20437 | FL | AirTran Airways Corporation | FL | AirTran Airways Corporation | 3 | 3 2009 | 20107 | FX | Federal Express Corporation | FX | Federal Express Corporation | 3 | 3 2009 | 20368 | G4 | Allegiant Air | G4 | Allegiant Air | 2 | 2 2009 | 20500 | G7 | GoJet Airlines, LLC d/b/a United Express | G7 | GoJet Airlines, LLC d/b/a United Express | 2 | 2 2009 | 20166 | GFQ | Gulf And Caribbean Cargo | GFQ | Gulf And Caribbean Cargo | 1 | 1 2009 | 20402 | GL | Miami Air International | GL | Miami Air International | 2 | 2 2009 | 19690 | HA | Hawaiian Airlines Inc. | HA | Hawaiian Airlines Inc. | 3 | 3 2009 | 20194 | JW | Arrow Air Inc. | JW | Arrow Air Inc. | 2 | 2 2009 | 20370 | KAQ | Kalitta Air LLC | KAQ | Kalitta Air LLC | 2 | 2 2009 | 20372 | KLQ | Kalitta Charters II | KLQ | Kalitta Charters II | 1 | 4 2009 | 20169 | L2 | Lynden Air Cargo Airlines | L2 | Lynden Air Cargo Airlines | 1 | 1 2009 | 21217 | L3 | Lynx Aviation d/b/a Frontier Airlines | L4 | Lynx Aviation d/b/a Frontier Airlines | 1 | 1 2009 | 20151 | M6 | Amerijet International | M6 | Amerijet International | 2 | 2 2009 | 20398 | MQ | American Eagle Airlines Inc. | MQ | American Eagle Airlines Inc. | 3 | 3 2009 | 20405 | MRQ | National Air Cargo Group, Inc.d/b/a Murray Air | MRQ | National Air Cargo Group, Inc.d/b/a Murray Air | 1 | 4 2009 | 20415 | NA | North American Airlines | NA | North American Airlines | 2 | 2 2009 | 20108 | NC | Northern Air Cargo Inc. | NC | Northern Air Cargo Inc. | 1 | 1 2009 | 20416 | NK | Spirit Air Lines | NK | Spirit Air Lines | 2 | 2 2009 | 19386 | NW | Northwest Airlines Inc. | NW | Northwest Airlines Inc. | 3 | 3 2009 | 20417 | OH | Comair Inc. | OH | Comair Inc. | 3 | 3 2009 | 20304 | OO | SkyWest Airlines Inc. | OO | SkyWest Airlines Inc. | 3 | 3 2009 | 20414 | OW | Executive Airlines | OW | Executive Airlines | 2 | 2 2009 | 20305 | PCQ | Pace Airlines | PCQ | Pace Airlines | 1 | 1 2009 | 20177 | PFQ | Asia Pacific | PFQ | Asia Pacific | 1 | 4 2009 | 20100 | PO | Polar Air Cargo Airways | PO | Polar Air Cargo Airways | 2 | 2 2009 | 20149 | PRQ | Florida West Airlines Inc. | PRQ | Florida West Airlines Inc. | 2 | 2 2009 | 20400 | PT | Capital Cargo International | PT | Capital Cargo International | 1 | 1 2009 | 19687 | QX | Horizon Air | QX | Horizon Air | 2 | 2 2009 | 20344 | RD | Ryan International Airlines | RD | Ryan International Airlines | 1 | 1 2009 | 20452 | YX | Republic Airlines | RW | Republic Airlines | 2 | 2 2009 | 20448 | S5 | Shuttle America Corp. | S5 | Shuttle America Corp. | 2 | 2 2009 | 19998 | SI | Sierra Pacific Airlines | SI | Sierra Pacific Airlines | 1 | 4 2009 | 20421 | SLQ | Sky King Inc. | SLQ | Sky King Inc. | 1 | 4 2009 | 20422 | SY | Sun Country Airlines d/b/a Mn Airlines | SY | Sun Country Airlines d/b/a Mn Airlines | 2 | 2 2009 | 20423 | U5 | USA 3000 Airlines | U5 | USA 3000 Airlines | 2 | 2 2009 | 20447 | U7 | USA Jet Airlines Inc. | U7 | USA Jet Airlines Inc. | 2 | 2 2009 | 19977 | UA | United Air Lines Inc. | UA | United Air Lines Inc. | 3 | 3 2009 | 20355 | US | US Airways Inc. | US | US Airways Inc. | 3 | 3 2009 | 20382 | VCQ | Victory Air Transport Inc. | VCQ | Victory Air Transport Inc. | 1 | 4 2009 | 21171 | VX | Virgin America | VX | Virgin America | 2 | 2 2009 | 20308 | WE | Centurion Cargo Inc. | WE | Centurion Cargo Inc. | 2 | 2 2009 | 20195 | WI | Tradewinds Airlines | WI | Tradewinds Airlines | 1 | 1 2009 | 19393 | WN | Southwest Airlines Co. | WN | Southwest Airlines Co. | 3 | 3 2009 | 20095 | WO | World Airways Inc. | WO | World Airways Inc. | 2 | 2 2009 | 20377 | X9 | Omni Air Express | X9 | Omni Air Express | 2 | 2 2009 | 20374 | XE | ExpressJet Airlines Inc. | XE | ExpressJet Airlines Inc. | 3 | 3 2009 | 20170 | XJ | Mesaba Airlines | XJ | Mesaba Airlines | 2 | 2 2009 | 20207 | XP | Casino Express | XP | Casino Express | 1 | 1 2009 | 20378 | YV | Mesa Airlines Inc. | YV | Mesa Airlines Inc. | 3 | 3 2009 | 20314 | YX (1) | Midwest Airline, Inc. | YX | Midwest Airline, Inc. | 2 | 2 2009 | 20046 | ZW | Air Wisconsin Airlines Corp | ZW | Air Wisconsin Airlines Corp | 2 | 2 2009 | 21352 | 0WQ | Avjet Corporation | 0WQ | Avjet Corporation | 1 | 1 2009 | 21217 | L3 | Lynx Aviation d/b/a Frontier Airlines | L3 | Lynx Aviation d/b/a Frontier Airlines | 1 | 1 2009 | 20452 | YX | Republic Airlines | YX | Republic Airlines | 2 | 2 2010 | 21161 | 09Q | Swift Air, LLC | 09Q | Swift Air, LLC | 1 | 4 2010 | 21352 | 0WQ | Avjet Corporation | 0WQ | Avjet Corporation | 1 | 1 2010 | 20397 | 16 | PSA Airlines Inc. | 16 | PSA Airlines Inc. | 2 | 2 2010 | 20408 | 3Z | Tatonduk Flying Service | 3Z | Tatonduk Flying Service | 1 | 1 2010 | 19917 | 5X | United Parcel Service | 5X | United Parcel Service | 3 | 3 2010 | 20007 | 5Y | Atlas Air Inc. | 5Y | Atlas Air Inc. | 3 | 3 2010 | 19874 | 8C | Air Transport International | 8C | Air Transport International | 2 | 2 2010 | 20363 | 9E | Pinnacle Airlines Inc. | 9E | Pinnacle Airlines Inc. | 2 | 2 2010 | 20254 | 9L | Colgan Air | 9L | Colgan Air | 2 | 2 2010 | 20190 | 9S | Southern Air Inc. | 9S | Southern Air Inc. | 2 | 2 2010 | 19805 | AA | American Airlines Inc. | AA | American Airlines Inc. | 3 | 3 2010 | 20453 | ABX | ABX Air, Inc. | ABX | ABX Air, Inc. | 3 | 3 2010 | 20354 | AJQ | Aerodynamics Inc. | AJQ | Aerodynamics Inc. | 1 | 1 2010 | 20201 | AMQ | Ameristar Air Cargo | AMQ | Ameristar Air Cargo | 1 | 4 2010 | 19678 | KH | Aloha Air Cargo | AQ | Aloha Air Cargo | 1 | 1 2010 | 19930 | AS | Alaska Airlines Inc. | AS | Alaska Airlines Inc. | 3 | 3 2010 | 20409 | B6 | JetBlue Airways | B6 | JetBlue Airways | 3 | 3 2010 | 20406 | BNQ | NetJets Large Aircraft Company L.L.C. | BNQ | NetJets Large Aircraft Company L.L.C. | 1 | 4 2010 | 19704 | CO | Continental Air Lines Inc. | CO | Continental Air Lines Inc. | 3 | 3 2010 | 21167 | CP | Compass Airlines | CP | Compass Airlines | 2 | 2 2010 | 20017 | CS | Continental Micronesia | CS | Continental Micronesia | 2 | 2 2010 | 19790 | DL | Delta Air Lines Inc. | DL | Delta Air Lines Inc. | 3 | 3 2010 | 20357 | ER | Astar USA, LLC | ER | Astar Air Cargo Inc. | 2 | 2 2010 | 20366 | EV | Atlantic Southeast Airlines | EV | Atlantic Southeast Airlines | 3 | 3 2010 | 20057 | EZ | Evergreen International Inc. | EZ | Evergreen International Inc. | 2 | 2 2010 | 20436 | F9 | Frontier Airlines Inc. | F9 | Frontier Airlines Inc. | 3 | 3 2010 | 20203 | FCQ | Falcon Air Express | FCQ | Falcon Air Express | 1 | 4 2010 | 20437 | FL | AirTran Airways Corporation | FL | AirTran Airways Corporation | 3 | 3 2010 | 20107 | FX | Federal Express Corporation | FX | Federal Express Corporation | 3 | 3 2010 | 20368 | G4 | Allegiant Air | G4 | Allegiant Air | 2 | 2 2010 | 20500 | G7 | GoJet Airlines, LLC d/b/a United Express | G7 | GoJet Airlines, LLC d/b/a United Express | 2 | 2 2010 | 20166 | GFQ | Gulf And Caribbean Cargo | GFQ | Gulf And Caribbean Cargo | 1 | 4 2010 | 20402 | GL | Miami Air International | GL | Miami Air International | 2 | 2 2010 | 19690 | HA | Hawaiian Airlines Inc. | HA | Hawaiian Airlines Inc. | 3 | 3 2010 | 20194 | JW | Arrow Air Inc. | JW | Arrow Air Inc. | 2 | 2 2010 | 20370 | KAQ | Kalitta Air LLC | KAQ | Kalitta Air LLC | 2 | 2 2010 | 20372 | KLQ | Kalitta Charters II | KLQ | Kalitta Charters II | 1 | 4 2010 | 20169 | L2 | Lynden Air Cargo Airlines | L2 | Lynden Air Cargo Airlines | 1 | 1 2010 | 21217 | L3 | Lynx Aviation d/b/a Frontier Airlines | L3 | Lynx Aviation d/b/a Frontier Airlines | 1 | 1 2010 | 20151 | M6 | Amerijet International | M6 | Amerijet International | 2 | 2 2010 | 20398 | MQ | American Eagle Airlines Inc. | MQ | American Eagle Airlines Inc. | 3 | 3 2010 | 20405 | MRQ | National Air Cargo Group, Inc.d/b/a Murray Air | MRQ | National Air Cargo Group, Inc.d/b/a Murray Air | 1 | 4 2010 | 20415 | NA | North American Airlines | NA | North American Airlines | 2 | 2 2010 | 20108 | NC | Northern Air Cargo Inc. | NC | Northern Air Cargo Inc. | 1 | 1 2010 | 20416 | NK | Spirit Air Lines | NK | Spirit Air Lines | 2 | 2 2010 | 20417 | OH | Comair Inc. | OH | Comair Inc. | 3 | 3 2010 | 20304 | OO | SkyWest Airlines Inc. | OO | SkyWest Airlines Inc. | 3 | 3 2010 | 20414 | OW | Executive Airlines | OW | Executive Airlines | 2 | 2 2010 | 20177 | PFQ | Asia Pacific | PFQ | Asia Pacific | 1 | 1 2010 | 21402 | PM | Prescott Support Company, Inc. | PM | Prescott Support Company, Inc. | 1 | 4 2010 | 20100 | PO | Polar Air Cargo Airways | PO | Polar Air Cargo Airways | 2 | 2 2010 | 20149 | PRQ | Florida West Airlines Inc. | PRQ | Florida West Airlines Inc. | 1 | 1 2010 | 20400 | PT | Capital Cargo International | PT | Capital Cargo International | 1 | 1 2010 | 19687 | QX | Horizon Air | QX | Horizon Air | 2 | 2 2010 | 20344 | RD | Ryan International Airlines | RD | Ryan International Airlines | 2 | 2 2010 | 20448 | S5 | Shuttle America Corp. | S5 | Shuttle America Corp. | 2 | 2 2010 | 19998 | SI | Sierra Pacific Airlines | SI | Sierra Pacific Airlines | 1 | 4 2010 | 20421 | SLQ | Sky King Inc. | SLQ | Sky King Inc. | 1 | 4 2010 | 20422 | SY | Sun Country Airlines d/b/a Mn Airlines | SY | Sun Country Airlines d/b/a Mn Airlines | 2 | 2 2010 | 20423 | U5 | USA 3000 Airlines | U5 | USA 3000 Airlines | 2 | 2 2010 | 20447 | U7 | USA Jet Airlines Inc. | U7 | USA Jet Airlines Inc. | 1 | 1 2010 | 19977 | UA | United Air Lines Inc. | UA | United Air Lines Inc. | 3 | 3 2010 | 20355 | US | US Airways Inc. | US | US Airways Inc. | 3 | 3 2010 | 20382 | VCQ | Victory Air Transport Inc. | VCQ | Victory Air Transport Inc. | 1 | 4 2010 | 21171 | VX | Virgin America | VX | Virgin America | 2 | 2 2010 | 20308 | WE | Centurion Cargo Inc. | WE | Centurion Cargo Inc. | 2 | 2 2010 | 20195 | WI | Tradewinds Airlines | WI | Tradewinds Airlines | 1 | 1 2010 | 19393 | WN | Southwest Airlines Co. | WN | Southwest Airlines Co. | 3 | 3 2010 | 20095 | WO | World Airways Inc. | WO | World Airways Inc. | 2 | 2 2010 | 20377 | X9 | Omni Air Express | X9 | Omni Air Express | 2 | 2 2010 | 20374 | XE | ExpressJet Airlines Inc. | XE | ExpressJet Airlines Inc. | 2 | 2 2010 | 20170 | XJ | Mesaba Airlines | XJ | Mesaba Airlines | 2 | 2 2010 | 20207 | XP | Casino Express | XP | Casino Express | 1 | 1 2010 | 20378 | YV | Mesa Airlines Inc. | YV | Mesa Airlines Inc. | 2 | 2 2010 | 20452 | YX | Republic Airlines | YX | Republic Airlines | 2 | 2 2010 | 20046 | ZW | Air Wisconsin Airlines Corp | ZW | Air Wisconsin Airlines Corp | 2 | 2 2010 | 21236 | 0JQ | Vision Airlines | 0JQ | Vision Airlines | 1 | 1 2010 | 19678 | KH | Aloha Air Cargo | KH | Aloha Air Cargo | 1 | 1 2011 | 21161 | 09Q | Swift Air, LLC | 09Q | Swift Air, LLC | 1 | 4 2011 | 21236 | 0JQ | Vision Airlines | 0JQ | Vision Airlines | 1 | 1 2011 | 21352 | 0WQ | Avjet Corporation | 0WQ | Avjet Corporation | 1 | 1 2011 | 20397 | 16 | PSA Airlines Inc. | 16 | PSA Airlines Inc. | 2 | 2 2011 | 20408 | 3Z | Tatonduk Flying Service | 3Z | Tatonduk Flying Service | 1 | 1 2011 | 19917 | 5X | United Parcel Service | 5X | United Parcel Service | 3 | 3 2011 | 20007 | 5Y | Atlas Air Inc. | 5Y | Atlas Air Inc. | 3 | 3 2011 | 19874 | 8C | Air Transport International | 8C | Air Transport International | 2 | 2 2011 | 20363 | 9E | Pinnacle Airlines Inc. | 9E | Pinnacle Airlines Inc. | 2 | 2 2011 | 20254 | 9L | Colgan Air | 9L | Colgan Air | 2 | 2 2011 | 20190 | 9S | Southern Air Inc. | 9S | Southern Air Inc. | 2 | 2 2011 | 19805 | AA | American Airlines Inc. | AA | American Airlines Inc. | 3 | 3 2011 | 20453 | ABX | ABX Air, Inc. | ABX | ABX Air, Inc. | 3 | 3 2011 | 20354 | AJQ | Aerodynamics Inc. | AJQ | Aerodynamics Inc. | 1 | 1 2011 | 20201 | AMQ | Ameristar Air Cargo | AMQ | Ameristar Air Cargo | 1 | 4 2011 | 19930 | AS | Alaska Airlines Inc. | AS | Alaska Airlines Inc. | 3 | 3 2011 | 20409 | B6 | JetBlue Airways | B6 | JetBlue Airways | 3 | 3 2011 | 19704 | CO | Continental Air Lines Inc. | CO | Continental Air Lines Inc. | 3 | 3 2011 | 21167 | CP | Compass Airlines | CP | Compass Airlines | 2 | 2 2011 | 19790 | DL | Delta Air Lines Inc. | DL | Delta Air Lines Inc. | 3 | 3 2011 | 20357 | ER | Astar USA, LLC | ER | Astar USA, LLC | 2 | 2 2011 | 20366 | EV | Atlantic Southeast Airlines | EV | Atlantic Southeast Airlines | 3 | 3 2011 | 20057 | EZ | Evergreen International Inc. | EZ | Evergreen International Inc. | 2 | 2 2011 | 20436 | F9 | Frontier Airlines Inc. | F9 | Frontier Airlines Inc. | 3 | 3 2011 | 20203 | FCQ | Falcon Air Express | FCQ | Falcon Air Express | 1 | 4 2011 | 20437 | FL | AirTran Airways Corporation | FL | AirTran Airways Corporation | 3 | 3 2011 | 20107 | FX | Federal Express Corporation | FX | Federal Express Corporation | 3 | 3 2011 | 20368 | G4 | Allegiant Air | G4 | Allegiant Air | 2 | 2 2011 | 20500 | G7 | GoJet Airlines, LLC d/b/a United Express | G7 | GoJet Airlines, LLC d/b/a United Express | 2 | 2 2011 | 20166 | GFQ | Gulf And Caribbean Cargo | GFQ | Gulf And Caribbean Cargo | 1 | 4 2011 | 20402 | GL | Miami Air International | GL | Miami Air International | 2 | 2 2011 | 19690 | HA | Hawaiian Airlines Inc. | HA | Hawaiian Airlines Inc. | 3 | 3 2011 | 20370 | KAQ | Kalitta Air LLC | KAQ | Kalitta Air LLC | 2 | 2 2011 | 19678 | KH | Aloha Air Cargo | KH | Aloha Air Cargo | 1 | 1 2011 | 20372 | KLQ | Kalitta Charters II | KLQ | Kalitta Charters II | 1 | 4 2011 | 20169 | L2 | Lynden Air Cargo Airlines | L2 | Lynden Air Cargo Airlines | 1 | 1 2011 | 21217 | L3 | Lynx Aviation d/b/a Frontier Airlines | L3 | Lynx Aviation d/b/a Frontier Airlines | 1 | 1 2011 | 20151 | M6 | Amerijet International | M6 | Amerijet International | 2 | 2 2011 | 20398 | MQ | American Eagle Airlines Inc. | MQ | American Eagle Airlines Inc. | 3 | 3 2011 | 20405 | MRQ | National Air Cargo Group, Inc.d/b/a Murray Air | MRQ | National Air Cargo Group, Inc.d/b/a Murray Air | 1 | 4 2011 | 20415 | NA | North American Airlines | NA | North American Airlines | 2 | 2 2011 | 20108 | NC | Northern Air Cargo Inc. | NC | Northern Air Cargo Inc. | 1 | 1 2011 | 20416 | NK | Spirit Air Lines | NK | Spirit Air Lines | 2 | 2 2011 | 20417 | OH | Comair Inc. | OH | Comair Inc. | 3 | 3 2011 | 20304 | OO | SkyWest Airlines Inc. | OO | SkyWest Airlines Inc. | 3 | 3 2011 | 20414 | OW | Executive Airlines | OW | Executive Airlines | 2 | 2 2011 | 20177 | PFQ | Asia Pacific | PFQ | Asia Pacific | 1 | 1 2011 | 21402 | PM | Prescott Support Company, Inc. | PM | Prescott Support Company, Inc. | 1 | 4 2011 | 20100 | PO | Polar Air Cargo Airways | PO | Polar Air Cargo Airways | 2 | 2 2011 | 20149 | PRQ | Florida West Airlines Inc. | PRQ | Florida West Airlines Inc. | 1 | 1 2011 | 20400 | PT | Capital Cargo International | PT | Capital Cargo International | 1 | 1 2011 | 19687 | QX | Horizon Air | QX | Horizon Air | 2 | 2 2011 | 20344 | RD | Ryan International Airlines | RD | Ryan International Airlines | 2 | 2 2011 | 20448 | S5 | Shuttle America Corp. | S5 | Shuttle America Corp. | 2 | 2 2011 | 19998 | SI | Sierra Pacific Airlines | SI | Sierra Pacific Airlines | 1 | 4 2011 | 20422 | SY | Sun Country Airlines d/b/a Mn Airlines | SY | Sun Country Airlines d/b/a Mn Airlines | 2 | 2 2011 | 20423 | U5 | USA 3000 Airlines | U5 | USA 3000 Airlines | 2 | 2 2011 | 20447 | U7 | USA Jet Airlines Inc. | U7 | USA Jet Airlines Inc. | 1 | 1 2011 | 19977 | UA | United Air Lines Inc. | UA | United Air Lines Inc. | 3 | 3 2011 | 20355 | US | US Airways Inc. | US | US Airways Inc. | 3 | 3 2011 | 21171 | VX | Virgin America | VX | Virgin America | 2 | 2 2011 | 20308 | WE | Centurion Cargo Inc. | WE | Centurion Cargo Inc. | 2 | 2 2011 | 20195 | WI | Tradewinds Airlines | WI | Tradewinds Airlines | 1 | 1 2011 | 19393 | WN | Southwest Airlines Co. | WN | Southwest Airlines Co. | 3 | 3 2011 | 20095 | WO | World Airways Inc. | WO | World Airways Inc. | 2 | 2 2011 | 20377 | X9 | Omni Air Express | X9 | Omni Air Express | 2 | 2 2011 | 20374 | XE | ExpressJet Airlines Inc. | XE | ExpressJet Airlines Inc. | 2 | 2 2011 | 20170 | XJ | Mesaba Airlines | XJ | Mesaba Airlines | 2 | 2 2011 | 20207 | XP | Casino Express | XP | Casino Express | 1 | 1 2011 | 20378 | YV | Mesa Airlines Inc. | YV | Mesa Airlines Inc. | 2 | 2 2011 | 20452 | YX | Republic Airlines | YX | Republic Airlines | 2 | 2 2011 | 20046 | ZW | Air Wisconsin Airlines Corp | ZW | Air Wisconsin Airlines Corp | 2 | 2 2011 | 21492 | 1BQ | Dynamic Airways, LLC | 1BQ | Dynamic Airways, LLC | 1 | 4 2011 | 21161 | 09Q | Swift Air, LLC | 09Q | Swift Air, LLC | 1 | 1 2011 | 21236 | 0JQ | Vision Airlines | 0JQ | Vision Airlines | 2 | 2 2011 | 20453 | ABX | ABX Air, Inc. | ABX | ABX Air, Inc. | 2 | 2 2011 | 20201 | AMQ | Ameristar Air Cargo | AMQ | Ameristar Air Cargo | 1 | 1 2011 | 20366 | EV | Atlantic Southeast Airlines | EV | Atlantic Southeast Airlines | 2 | 2 2011 | 20203 | FCQ | Falcon Air Express | FCQ | Falcon Air Express | 1 | 1 2011 | 20372 | KLQ | Kalitta Charters II | KLQ | Kalitta Charters II | 1 | 1 2011 | 20417 | OH | Comair Inc. | OH | Comair Inc. | 2 | 2 2011 | 21402 | PM | Prescott Support Company, Inc. | PM | Prescott Support Company, Inc. | 1 | 1 2011 | 19998 | SI | Sierra Pacific Airlines | SI | Sierra Pacific Airlines | 1 | 1 2011 | 20421 | SLQ | Sky King Inc. | SLQ | Sky King Inc. | 1 | 1 2011 | 20447 | U7 | USA Jet Airlines Inc. | U7 | USA Jet Airlines Inc. | 2 | 2 2011 | 20195 | WI | Tradewinds Airlines | WI | Tradewinds Airlines | 1 | 4 2011 | 21518 | 1EQ | KaiserAir, Inc. | 1EQ | KaiserAir, Inc. | 1 | 1 2011 | 20405 | MRQ | National Air Cargo Group, Inc.d/b/a Murray Air | MRQ | National Air Cargo Group, Inc.d/b/a Murray Air | 1 | 1 2011 | 20421 | SLQ | Sky King Inc. | SLQ | Sky King Inc. | 1 | 4 2011 | 21518 | 1EQ | KaiserAir, Inc. | 1EQ | KaiserAir, Inc. | 1 | 4 2011 | 20310 | K8 | Caribbean Sun Airlines, Inc d/b/a World Atlantic Airlines | K8 | Caribbean Sun Airlines, Inc d/b/a World Atlantic Airlines | 1 | 4 2011 | 20408 | 3Z | Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo | 3Z | Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo | 1 | 1 2011 | 20310 | K8 | Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines | K8 | Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines | 1 | 4 2011 | 20405 | MRQ | National Air Cargo Group, Inc. d/b/a Murray Air | MRQ | National Air Cargo Group, Inc. d/b/a Murray Air | 1 | 1 2011 | 20422 | SY | Sun Country Airlines d/b/a MN Airlines | SY | Sun Country Airlines d/b/a MN Airlines | 2 | 2 2011 | 20366 | EV | ExpressJet Airlines Inc. | EV | Atlantic Southeast Airlines | 2 | 2 2011 | 20374 | XE | ExpressJet Airlines Inc. (1) | XE | ExpressJet Airlines Inc. | 2 | 2 Ÿ  2009 ⁄  2010 €  2011 ©R  21161 ≠O  20397 ∏O  20408 ÕM  19917 'N  20007 ¢M  19874 ãO  20363 O  20254 ﬁN  20190 ]M  19805 ÂO  20453 ÇO  20354 ÈN  20201 ﬁL  19678 ⁄M  19930 πO  20409 ∂O  20406 ¯L  19704 ØR  21167 1N  20017 NM  19790 ÖO  20357 éO  20366 YN  20057 ‘O  20436 ÎN  20203 ’O  20437 ãN  20107 êO  20368 P  20500 ∆N  20166 ≤O  20402 ÍL  19690 ‚N  20194 íO  20370 îO  20372 …N  20169 ·R  21217 ∑N  20151 ÆO  20398 µO  20405 øO  20415 åN  20108 ¿O  20416 ∫K  19386 ¡O  20417 PO  20304 æO  20414 QO  20305 —N  20177 ÑN  20100 µN  20149 ∞O  20400 ÁL  19687 xO  20344 ‰O  20452 ‡O  20448 N  19998 ≈O  20421 ∆O  20422 «O  20423 ﬂO  20447 	N  19977 ÉO  20355 ûO  20382 ≥R  21171 TO  20308 „N  20195 ¡K  19393 N  20095 ôO  20377 ñO  20374  N  20170 ÔN  20207 öO  20378 ZO  20314 NN  20046 hS  21352 öS  21402 ÙR  21236 ÙS  21492 T  21518 VO  20310 09Q    16 3Z 5X 5Y 8C 9E 9L 9S AA ABX AJQ AMQ KH AS B6 BNQ CO CP CS DL ER EV EZ F9 FCQ FL FX G4 G7 GFQ GL HA JW KAQ KLQ L2 L3 M6 MQ MRQ NA NC NK NW OH OO OW PCQ PFQ PO PRQ PT QX RD YX S5 SI SLQ SY U5 U7 UA US VCQ VX WE WI WN WO X9 XE XJ XP YV YX (1) ZW 0WQ PM 0JQ 1BQ 1EQ K8 Swift Air, LLC PSA Airlines Inc. Tatonduk Flying Service United Parcel Service Atlas Air Inc. Air Transport International Pinnacle Airlines Inc. Colgan Air Southern Air Inc. American Airlines Inc. ABX Air, Inc. Aerodynamics Inc. Ameristar Air Cargo Aloha Air Cargo Alaska Airlines Inc. JetBlue Airways NetJets Large Aircraft Company L.L.C. Continental Air Lines Inc. Compass Airlines Continental Micronesia Delta Air Lines Inc. Astar USA, LLC Atlantic Southeast Airlines Evergreen International Inc. Frontier Airlines Inc. Falcon Air Express AirTran Airways Corporation Federal Express Corporation Allegiant Air GoJet Airlines, LLC d/b/a United Express Gulf And Caribbean Cargo Miami Air International Hawaiian Airlines Inc. Arrow Air Inc. Kalitta Air LLC Kalitta Charters II Lynden Air Cargo Airlines Lynx Aviation d/b/a Frontier Airlines Amerijet International American Eagle Airlines Inc. National Air Cargo Group, Inc.d/b/a Murray Air North American Airlines Northern Air Cargo Inc. Spirit Air Lines Northwest Airlines Inc. Comair Inc. SkyWest Airlines Inc. Executive Airlines Pace Airlines Asia Pacific Polar Air Cargo Airways Florida West Airlines Inc. Capital Cargo International Horizon Air Ryan International Airlines Republic Airlines Shuttle America Corp. Sierra Pacific Airlines Sky King Inc. Sun Country Airlines d/b/a Mn Airlines USA 3000 Airlines USA Jet Airlines Inc. United Air Lines Inc. US Airways Inc. Victory Air Transport Inc. Virgin America Centurion Cargo Inc. Tradewinds Airlines Southwest Airlines Co. World Airways Inc. Omni Air Express ExpressJet Airlines Inc. Mesaba Airlines Casino Express Mesa Airlines Inc. Midwest Airline, Inc. Air Wisconsin Airlines Corp Avjet Corporation Prescott Support Company, Inc. Vision Airlines Dynamic Airways, LLC KaiserAir, Inc. Caribbean Sun Airlines, Inc d/b/a World Atlantic Airlines Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines National Air Cargo Group, Inc. d/b/a Murray Air Sun Country Airlines d/b/a MN Airlines ExpressJet Airlines Inc. (1) 09Q    16 3Z 5X 5Y 8C 9E 9L 9S AA ABX AJQ AMQ AQ AS B6 BNQ CO CP CS DL ER EV EZ F9 FCQ FL FX G4 G7 GFQ GL HA JW KAQ KLQ L2 L4 M6 MQ MRQ NA NC NK NW OH OO OW PCQ PFQ PO PRQ PT QX RD RW S5 SI SLQ SY U5 U7 UA US VCQ VX WE WI WN WO X9 XE XJ XP YV YX ZW 0WQ L3 PM 0JQ KH 1BQ 1EQ K8 Swift Air, LLC PSA Airlines Inc. Tatonduk Flying Service United Parcel Service Atlas Air Inc. Air Transport International Pinnacle Airlines Inc. Colgan Air Southern Air Inc. American Airlines Inc. ABX Air, Inc. Aerodynamics Inc. Ameristar Air Cargo Aloha Air Cargo Alaska Airlines Inc. JetBlue Airways NetJets Large Aircraft Company L.L.C. Continental Air Lines Inc. Compass Airlines Continental Micronesia Delta Air Lines Inc. Astar Air Cargo Inc. Atlantic Southeast Airlines Evergreen International Inc. Frontier Airlines Inc. Falcon Air Express AirTran Airways Corporation Federal Express Corporation Allegiant Air GoJet Airlines, LLC d/b/a United Express Gulf And Caribbean Cargo Miami Air International Hawaiian Airlines Inc. Arrow Air Inc. Kalitta Air LLC Kalitta Charters II Lynden Air Cargo Airlines Lynx Aviation d/b/a Frontier Airlines Amerijet International American Eagle Airlines Inc. National Air Cargo Group, Inc.d/b/a Murray Air North American Airlines Northern Air Cargo Inc. Spirit Air Lines Northwest Airlines Inc. Comair Inc. SkyWest Airlines Inc. Executive Airlines Pace Airlines Asia Pacific Polar Air Cargo Airways Florida West Airlines Inc. Capital Cargo International Horizon Air Ryan International Airlines Republic Airlines Shuttle America Corp. Sierra Pacific Airlines Sky King Inc. Sun Country Airlines d/b/a Mn Airlines USA 3000 Airlines USA Jet Airlines Inc. United Air Lines Inc. US Airways Inc. Victory Air Transport Inc. Virgin America Centurion Cargo Inc. Tradewinds Airlines Southwest Airlines Co. World Airways Inc. Omni Air Express ExpressJet Airlines Inc. Mesaba Airlines Casino Express Mesa Airlines Inc. Midwest Airline, Inc. Air Wisconsin Airlines Corp Avjet Corporation Prescott Support Company, Inc. Vision Airlines Astar USA, LLC Dynamic Airways, LLC KaiserAir, Inc. Caribbean Sun Airlines, Inc d/b/a World Atlantic Airlines Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines National Air Cargo Group, Inc. d/b/a Murray Air Sun Country Airlines d/b/a MN Airlines    1    2    3    4    2    1    3 r   114 ƒ  964 -  301 ‹  6108 ±  1201 ù  413 l  4204 ,  1324   541 ò$ 74904 ˛  3582 Û   243 !   33 à  392 Ä'  10112 Ó.  12014    5 =î  37949 %  805 ⁄  1242 ¡∫  47809 ~  894 :  4410 –  464 1  4913 =   61   7956 ≤0 143538   1567 ¬  450 A   65 ™  426 x  3704 	  521 ﬂ  735 0   48 °   161 s  371    544 '  9992 b   98 :  826 ◊   215 ;  2107 úq  29084 #  5667 ¬&  9922 r  1906 Æ  430 +   43 o  367 7   55 ﬁ   222 r  3698 =  573 ò  1432 Á  1255    26 }   125 ˇ  767   543 ø   191 tΩ  48500 iÉ  33641     0 A  1345 k  619 E   69 'å  35879 ‚  1506   1055 !  5409 f  4454 f   102 Z  2906 }  1149   2845 o   111 •   165 ¿  960   282 «  5831   1047 ∂  438 ¸  3836 Ó  1262 $  548 s 71283 â  905 Ù   244    28 7  311 û&  9886 "1  12578 ç  36104 è  911 ∑  1207 \; 80732 I  585   3591 „  483 ¶  5798 P   80 á  8071 ˛  139518 ∆  1734 .  558 £  419   3857 `  608 	  777 5   53 ú   156 ú  412 '  551 ô&  9881 V   86 ∫   186 U  2133 
+  2585 7&  9783    2048 ,   44    24 8  312 3   51 Å  3457   519   1288 x   120   771 Ü  390 ˝   253 µ  46362 ¨|  31916   1550 #â  35107 ∂  1462   1051 û  5534 π  2233 u   117 |	  2428 ü  1951 ú
+  2716 à   136 ¸  508 ö   154 ·  993   281 !  5665 ¡  1217 È  489 |  3964 $  1572 ≈  709  70163 Ê  486 –   208 /   47 r%  9586 D3  13124 ïé  36501   895 ªD 83131 )  297 ‚  3810 º  5564    8194 (/ 143144 "  1826 ?  575 T   84 Ø  431 †  4000 Ì  1005 [  347 >   62 s   115 }  637 ±(  10417     202 –  720 ÷   214 â	  2441 R	  2386 u'  10101 _  2143 (   40 #   35 5  309 H   72    256 Û  3315 D  580 )  1321    30 R  850 +  299 L  332 ‹¥  46300 Å{  31617 ^  1886 Ë   232 j   106 ⁄ä  35546 '  1319 ˇ  1023 J  5706 u  2165 â   137 Û  2035 Œ
+  2766 t   116 ÷  982 -  301 À  6091 â  1161 ö  410 ]  4189 -  1325   540 ã$ 74891   3095 Ó   238 "   34 á  391 j'  10090 ˛.  12030    5 `ï  38240 $  804 €  1243 Gº  48199 ~  894 Ã  4300 √  451 !  4897 =   61 ˆ  8182 (. 142888 S  1619 ‡  480 A   65 Æ  430 w  3703 !  545 Á  743 0   48 ß   167 Ü  390  '  9984 c   99 1  817 ◊   215 Ë  2024 “q  29138 i  5737 ‚&  9954 Ä  1920 +   43 Y  345 7   55 ÿ   216 {  3707 )  553 ÿ  1496 =  1341    29 v   118    768 K  587 ø   191 qΩ  48497 =É  33597     0 q  1393 u  629 D   68 :å  35898 ‹  1500   1045    5408 £  4515 a   97 =  2877 B  1090   2847 l   108 †   160 ª  955   284 ª  5819   1054 ∑  439 —  3793 ˜  1271 3  563  71169 t  884 Ô   239 ?  319 à&  9864 #2  12835 ,ç  36140 µ  949 ∂  1206 Ï8 80108 D  580 >  3646 Ï  492 w  5751 Q   81 ˜  8183 !" 139809 ﬁ  1758 î  404   3854 S  595 '  807 6   54 ú   156 ò  408 $  548 ∑&  9911 U   85   772 …   201 G  2119 
+  2574 ≥&  9907 	  2057 ,   44    25 ;  315 3   51 ›   221 w  3447   530 ˛  1278 x   120 	  777   383 ˝   253 Œ¥  46286 ˚z  31483 "  1570 p  368 .   46 ‹à  35036 {  1403   1032 î  5524 û  2206 +	  2347 ©  1961 î
+  2708 Ö   133 ù   157 ﬁ  990 %  5669 ¡  1217   516 ç  3981 ?  1599 ¿  704 ` 70496 È  489 À   203 /   47 <%  9532 v3  13174 ¬é  36546 |  892 wG 83831 &  294 Á  3815 ˛  510 º  5564 ä   138 8   8248 ±. 143025 ˝  1789 9  569 T   84 ´  427 ü  3999   1030 <   60 _   95   639 ’(  10453 “   210 Õ  717 â	  2441 	  2335 ∆'  10182 ï  2197 (   40 '   39 6  310 M   77 ˛   254 0  3120 F  582 7  1335 W  855 +  299 O  335 Ã¥  46284 á{  31623 Ê   230 r   114 òã  35736   1308 ¸  1020    5376 Ö  2181 â   137 ”  2003 à  2184   2821 E   69 n   110 ‘  980 3  307 £  6051 E  1093 ñ  406 Õ  4045 )  1321   540 ä$ 74890 `  2912 È   233 !   33 Ö  389 ='  10045 ˆ.  12022    5 \ñ  38492 (  808 Ÿ  1241 1Ω  48433 u  885 ò  4248 ¡  449   4885 D   68 ¸  8188 ä+ 142218 f  1638 ı  501 A   65 §  420 Ö  3717 ˘  505 Ê  742 2   50 ß   167 é  398   538 Ì&  9965 k   107 .  814 À   203   2054 úq  29084 A  5697 ü&  9887 ¢  1954 ¶  422 +   43 V  342 7   55 ‘   212 [  3675 *  554 ÿ  1496 =  1341    29 ˛  766 K  587 «   199 _Ω  48479 )É  33577     0 ¶  1446 Ç  642 å  35869   1549   1051 F  5446 √  4547 x   120 0  2864 o  1647   2835 j   106 û   158 ≈  965   279 ∂  5814 .  1070 π  441 ÿ  3800 3  1331 5  565 ¿ 70848 _  863 Á   231 D  324 l&  9836  2  12800 ¶ç  36262 ∆  966 π  1209 R9 80210 µ  437 /  3631 Ï  492 *  5674 P   80 ÷  8150 }# 140157   1793   541 C   67 ù  413 $  3876 [  603 :  826 ö   154 ç  397 $  548 Ω&  9917 Z   90 ˚  763 æ   190 û  2206 ˙	  2554 Ÿ&  9945 Ù  1524    25 7  311 3   51 ﬁ   222 Í  3306   537 "  1314 Ô  751 {  379 ˝   253 Î¥  46315 ºz  31420 ;  1595 w  375 -   45 Çà  34946 j  1386 ˛  1022 Î  5611 ü  2207 y   121 ©  2217 ÿ  2008 ≥
+  2739 ò   152 Ê  998   286   5658 ˆ  1270   523 •  4005 M  1613 ∆  710 $ 70692 6%  9526 Î3  13291 îé  36500 É  899 øI 84415 #  291 Ì  493 µ  5557 e   8293 M0 143437 Ó  1774 L  588 R   82 †  416 ∏  4024   1032 ù   157    31 Ü  646 a)  10593     202 Õ  717 ›   221 ˇ  2303 æ'  10174 ï  2197 (   40 4  308 N   78 ˆ   246   3097 Z  1370 Y  857 @  320 †¥  46240 ´{  31659 ã  1931 Ì   237 z   122 |ä  35452 (  1320 ”  5331 q  2161 í   146 »  1992 π  2233    2816 E   69    127 Ω  445 ﬂ  479 /   47 ¬  3778 ä   138 Ô  2287    28 †   160 U  341 n   110 ’  981 ,  300 ï  6037 X  1112 y  377 Õ  4045 )  1321 Ã  460 Ü$ 74886 x
+  2680 È   233 "   34 Å  385 S'  10067 ,0  12332    5 &ñ  38438 %  805 ⁄  1242 }º  48253 n  878   4102 À  459 ,  4908 D   68    8208 à( 141448 à  1672 ﬁ  478 >   62 û  414 Õ  3789 ﬂ  479 Ê  742 3   51 ¶   166 ñ  406    544 ⁄&  9946 i   105 1  817     202 ¸  2044 ôt  29849 ¯  5624 Œ%  9678 Æ  1966 ∏  440 ,   44 /  303 6   54 8  3640 ©  1449   1299     32 √  451 «   199 ^Ω  48478  É  33568     0 …  1481 t  628 B   66 Ÿã  35801   1547 È  1001 )  5417 ¨  4524 h   104   2821 v  1654 -  2861 e   101 ü   159 Ã  972   279 ¨  5804 L  1100 ©  425 ‡  3808   1311 Ñ  644 † 70560 M  845 „   227    31 D  324 \&  9820 Ã1  12748 5ã  35637 ∑  951 ª  1211 R9 80210 •  421 i  3689 È  489 ⁄  5594 \   92 ∆  8134 √% 140739   1817 A  577 H   72 £  419   3870 R  594 D  836 õ   155 
+  266 +  555 ˚&  9979 U   85 ˘  761 ø   191 G  2119 ˇ	  2559 s&  9843 Ú  1522 .   46    25 9  313 1   49 ‡   224 	  3337 ƒ  452 -  1325    30 x   120 ·  737 {  379 ˝   253 Î¥  46315 ⁄z  31450 0  1584 v  374 4   52 2à  34866 d  1380 ˆ  1014 e  5733 î  2196 y   121 ì  2195    2080 ¿
+  2752 E  325 ó   151 ﬂ  991 (  296   5651 ˆ  1270   536 ¡  4033 w  1655 Æ  686 ˜ 70903 1%  9521 »4  13512 óé  36503 £  931 qG 83825 !  289 Í  490 ’  5589 ∏   8376 ö1 143770 Î  1771 J  586 W   87 †  416 ÿ  4056   1042 [  347 ù   157 m  621 ë)  10641 …  713   287 ±	  2481 ≠'  10157 †  2208 (   40 4  308 O   79 ı   245 ˙  3066 8  568 ó  1431 X  856 >  318 7¥  46135 v|  31862 ç  1933 ªå  36027 “  1234 ≤  5298 x  2168 ã   139 µ  1973 ∫  2234 ˆ
+  2806 E   69 ê   144 ‹  476 /   47 ˚  3835 è   143 A   65 ≈  2245    27 Y  345 É   131 j   106 ·  993 2  306 y  6009 =  1085 u  373 j  3946 -  1325 “  466 t 73332 w	  2423 Í   234 !   33 {  379 L'  10060 30  12339    5 Zñ  38490 9  825 ◊  1239 {Ω  48507 M  845 ü  3999 ‘  468 7  4919 D   68 Û   8435 ü$ 140447 í  1682 ‹  476 =   61 ä  394 ò  3736 ‚  482 ‰  740 3   51 ß   167 ú  412 #  547 ˘&  9977 P   80 !  801 Œ   206 ,  2092 ©f  26281   5643 %  9475 ƒ  1988 ∏  440 +   43 B  322 6   54 Õ   205   3587 ß  423 ∆  1478 O  1359     32 n   110 –  720 Ω  445 «   199 ‡º  48352 …Ç  33481     0 ≈  1477 |  636 .   46 ºã  35772   1553 ‰  996 {  5499 C  4675 f   102   2817 b  1634 )  2857 ü   159 ﬂ  991   278 v  5750 X  1112 û  414 ˇ  3839   1293 ò  664 $ 70436 H  840 ‰   228    30 D  324 Z&  9818 02  12848 5ã  35637 ’  981 ∂  1206 »8 80072 }  3709 Â  485 M  5453 ^   94 Ñ   8324 H' 141128   1816 4  564 J   74 ?  3903 B  578 D  836 5   53 û   158 Ò   241 <  572 x'  10104 X   88 ‚  738 æ   190    2250 ¸	  2556 ˛&  9982   2065    25 9  313 1   49 ·   225 ¸  3324 *  554 %  1317 }   125 Â  741 c  355   260 Æ¥  46254 ˆz  31478 5  1589 ç  397 dà  34916 f  1382 Î  1003 ?  5695 ´  2219 ù   157 (  2088 +  2091 ò
+  2712 è   143 ö   154 Ò  1009 .  302 
+  5642   1281   539 „  4067 `  1632 Æ  686 ÷ 70870 √   195 /   47 p%  9584 I5  13641 »é  36552 ∂  950 òI 84376   279 Í  490 €  5595 ä   138 Ω   8381 √2 144067 k  1643 E  581 U   85 è  399 ˙  4090 D  1092 T  340 B   66 v  630 ë)  10641 ≤  690 (  296 »	  2504 t(  10356 †  2208 (   40 N   78 ˜   247 ˆ  3062 -  557 µ  1461    27 P  848 ı¥  46325 À|  31947   2056 ‡   224 ≥ç  36275 ù  1181 #  1059 ;  5435 w  2167 É   131 ˙  2042 Á
+  2791 Z   90 Ì  493 €  475 ˛  3838 £  2211 i  361 é   142     202 Ø   175 c   99 ‹  988 (  296 g  5991 3  1075   383 j  3946 6  1334 …  457 ∫ 73146   2067 Â   229    28 {  379 o'  10095 =0  12349    5 Ãñ  38604 L  844 ◊  1239 -æ  48685 V  854 =  3901 €  475   4880 B   66 D!  8516 È! 139753 ¨  1708 ÿ  472 =   61 Å  385 ´  3755 ı  501 ˆ  758 2   50 ¶   166 ¢  418 )  553 ç&  9869 P   80   797 œ   207   2056 ôj  27289 ˆ  5878 Ú$  9458 ∆  1990 ø  447 +   43 ?  319 6   54 ◊   215 ·  3553 ´  427 Î  1515 e  1381     32 x   120 Œ  718 ∏  440 ¡   193 ª  47902 _Ç  33375     0 „  1507 è  655 &   38 Fã  35654 “  1490 ﬂ  991 [  5467 m  4717 d   100 º
+  2748 L  1612 ˆ
+  2806 p   112 °   161 ﬁ  990   282 O  5711 X  1112 ¶  422   3859 à  1416 ≤  690 _ 70495   791 ‡   224 !   33 A  321 G&  9799 -2  12845 ^ã  35678 œ  975 ≥  1203 O< 80975 Ü  390 q  3697 Ê  486   5399 q   113 ˘   8441 §( 141476   1823 =  573 I   73 °  417 d  3940 B  578 o  879 <   60 †   160 Ú   242 ß'  10151 Z   90 —  721 º   188 ∞  2224 ¸	  2556 ◊&  9943   2078 ,   44    26 9  313 ‰   228 ⁄  3290 .  558 H  1352    31 Ç   130 È  745 _  351   262 ™¥  46250 ˆz  31478 p  1648 ç  397 C   67 íà  34962 q  1393 Ò  1009   5650 °  2209 §   164 /  2095 @  2112 ™
+  2730 }   125 Ú  1010 #  291   5639 «  1479   534 ÿ  4056 a  1633 Æ  686 E 70981 /   47 §%  9636 ˆ5  13814 Lè  36684 –  976 òI 84376   279 Ï  492 Û  5619 !  8467 û3 144286 û  1694 /  559 â  393 2  4146 M  1101 X  344 ù   157 f  614 Î)  10731 †  672 '  295 Î	  2539 ÷(  10454 ì  2195 7   55 2  306 ˘   249 „  3043 S  851 ,  300 ’≤  45781 §|  31908 $  2084 ‚   226 è  36629 ≤  1202 6  1078   5395 ã  2187 â   137 ô  1945 ò  2200 Õ
+  2765 \   92 ·  481 ⁄  474   3866 x  2168 k  363 É   131 æ   190 î   148 `   96 ⁄  986 "  290 5  5941   1035 å  396   3867 C  1347 À  459 ⁄ 72922   2059 Ê   230    28 V  342 E'  10053 s0  12403    5 jî  37994 M  845 Ë  1256 6¿  49206 .  814 ¬  3778 Ÿ  473 È  4841 G   71 Ì   8429 A! 139585 ¥  1716 ˝  509 =   61 ì  403 ƒ  3780 Ï  492 Û  755 1   49 •   165 ≠  429 $  548 ^&  9822 O   79   797 œ   207   2054 Vh  26710 9  5945 %  9475 ¿  1984 ø  447 +   43 9  313 7   55 ÿ   216 ’  3541 ∞  432 '  1575 ö  1434     32 x   120 Ã  716 ∑  439 »   200 Üª  48006 ∂Ç  33462     0 ﬁ  1502 r  626 !   33 —â  35281 ÿ  1496 ’  981 j  5482 E  4677 b   98 ó
+  2711 8  1592 Ò
+  2801 °   161    127 õ   155 ı  1013 (  296 9  5689 ç  1165 ≤  434   3844 §  1444 “  722 … 70345 ÷  470 Ì   237 G  327 &  9759 2  12826 ∂ã  35766 ÿ  984 π  1209 O< 80975 ö  410 Å  3713   5381 ∫   8378 ê* 141968   1817 5  565 K   75 ñ  406 p  3952 J   74 i  873 ;   59 ü   159 ı   245 D  580 ¡'  10177 n   110 ‹  732 ¡   193 Æ  2222 -
+  2605 ∞&  9904   2060 ,   44    26 3   51 Ë   232 «  3271 V  1366    30 Á  743 \  348 )  297 ⁄¥  46298 ≠z  31405 j  1642 ç  397 F   70 πà  35001 k  1387 ˜  1015 ¸  5628 ô  2201 ù   157 È  2025 Q  2129 ≠
+  2733 r  370 é   142 û   158 Ù  1012 #  291   5648 ƒ  1476   536   4122 ã  1675 ß  679 ù 71069 ¿   192 /   47 Ü%  9606 ö5  13722 Àé  36555 ‰  996 ©M 85417   279 …  5577 ç   141 @!  8512 E 148750 v  1654 1  561 Z   90 Ö  389 2  4146 W  1111 Z  346 ú   156 t  628 P*  10832 §  676 *  298 Ô	  2543 «(  10439 >  318 P   80   268 ‰  3044 3  563   1547    29 X  856   286 ≥  45855 _}  32095   2061 ê  36881   1287 F  1094 +  5419 C  2115 á   135 õ  1947 }  2173 Ÿ
+  2777 ;  571 ;  3899 e  2149 e  357 Ö   133 –   208 æ   190 î   148 c   99 ‚  994   287 	  5897   1029 é  398 Z  3930 ?  1343 —  465 À 72651 ì  1171 ﬂ   223    28 Z  346 '  9985 '1  12583    5 ‰è  36836 Z  858 Õ  1229 óø  49047 &  806 x  3704 ”  467 Ÿ  4825 G   71 è   8335 U  139349 º  1724 ¯  504 =   61 ò  408 Ø  3759 ˛  510   752 7   55 †   160 ´  427 ,  556 J&  9802 O   79   788 ≈   197 ı  2037 –g  26576 Ù  5876 À$  9419 Œ  1998 +   43 8  312 ›   221 π  3513 π  441 N  1614 è  1423 !   33 x   120 »  712 ±  433 –   208 õº  48283 Ä  32895     0 ‚  1506   537 '   39 ¥à  34996 Ä  1408 …  969   5401   4624 e   101 s
+  2675   1544   2821 ¢   162 o   111 ò   152 Û  1011    288   5662 Æ  1198 ≥  435 à  3976 º  1468 ”  723 ô 70297 Œ  462 Ì   237 X  344 ˇ%  9727 ⁄1  12762 Æä  35502 ÷  982 º  1212 7= 81207 õ  411 Ç  3714 Ò  497 h   8296 ﬁ+ 142302   1812 0  560 M   77 ù  413   3967 4   52 r  882 ;   59 ü   159 Î   235 S  595 ¶'  10150 ç   141 À  715 æ   190 Ø  2223 (
+  2600 B'  10050   2071 ,   44    26 5  309 9   57 ˛   254 :  3130 G  583   1282 å   140 ˜  759 )  297 õ¥  46235 Pz  31312 ≤  1714   272 5â  35125 d  1380 Ô  1007 ç  5517 ã  2187 ö   154   2067 €  2011 Ÿ
+  2777 Ä  384 d   100   1026   5633   1304   532 4  4148 é  1678 ô  665 u 70773 Ω   189 /   47 e%  9573 q5  13681 ó  38664   1030 éJ 84622   275 Ê  486 ˚  5627 !  8476 ‹E 148956 ~  1662 6  566 [   91 Ü  390 O  4175 \  1116 W  343 K   75 n  622 Ä*  10880 ü  671   283 Û	  2547 Ñ(  10372 â  2185 *   42 8   56 A  321 P   80   259   3056 -  557 S  1619     32 w  887   276 Ï≤  45804 ¨}  32172    2080 …   201  ë  37152 ˝  1277 P  1104   5503   2072 ~   126 y  1913 ]  2141 ≤
+  2738 $   36 
+  522 Ë  488 Y  3929 A  2113 S  339 ä   138 Œ   206 ë   145 1   49 4  308 i   105 Ê  998   285 Â  5861 
+  1034 û  414 ?  3903 .  1326 Î  491 I 72521 Ô  1007 Í   234    28 T  340 Ì&  9965 ò0  12440    5 é  36382 o  879 π  1209 0Ω  48432   781 x  3704 ’  469 °  4769 L   76 ]  8029 ≠ 139181 ’  1749   541 @   64 †  416 ƒ  3780    512 ˘  761 7   55 ú   156 ô  409 6  566 P&  9808 K   75   776 Ω   189 ﬂ  2015 Qd  25681 J  5706 Ô$  9455 Ã  1996 +   43 ;  315 ‹   220 ƒ  3524 Ø  431 û  1694 ë  1425     32 x   120 Ÿ  729 |  380 ÷   214 ¡∑  47041 ä~  32394     0 ‘  1492 
+  522    30 >â  35134 Ä  1408 À  971   5399 Ñ  4484 b   98 D
+  2628 Î  1515 ◊
+  2775 ™   170 u   117 ñ   150 Ë  1000 +  299   5663 ¬  1218 æ  446 ©  4009 î  1428 ﬂ  735  69912 ◊  471 Ì   237 `  352 –%  9680 Æ1  12718 åä  35468 ÷  982 …  1225 Î= 81387 e  357 h  3688   5640 ñ  8086 ¸- 142844   1803 :  570 O   79 ò  408 v  3958 "   34 î  916 ü   159 µ   181 Y  601 Ò'  10225 ï   149 »  712 9	  2361 $
+  2596 R'  10066 ˙  2042    26 6  310 ˝   253   3076 D  580 6  1334 !   33   769 :  314 /  303 Ö¥  46213 Zz  31322 ∆  1734   281 o   111 uâ  35189 R  1362 È  1001 z  5498 i  2153 ö   154 m  2157 B  2114 ÿ
+  2776 c   99 •   165   1050 ˜  5623   1308 	  521 6  4150 ~  1662 Ü  646 [ 70747 æ   190 /   47 T%  9556 ÿ5  13784 Zù  40282 ˛  1022 &C 82726   274 „  483 £  5539    8220 ‰F 149220 B  578 [   91 Ñ  388 ~  4222 t  1140 W  343 J   74 õ   155 }  637 +  11027 á  647   259 	
+  2569 7(  10295 ç  2189 0   48 D  324 U   85 Û   243   3086   539 P  1616 v  886   271 "≥  45858 Í}  32234 M  2125 ¡   193 ®í  37544 Ï  1260 F  1094 ü  5535 Á  2023 s   115 x  1912 L  2124 ®
+  2728 $   36 Ù  500 Ë  488 p  3952   2060 &  294 î   148 Ã   204 )  297 n   110 À  971   277 ‰  5860   1051 ¶  422 >  3902 #  1315 ˇ  511 a 71777 È  1001 Ù   244    28 =  317 ◊&  9943 ®0  12456    5 Úç  36338 q  881 π  1209 K–  53323 W  599 o  3695 —  465 ¶  4774 N   78 Ñ  8068 £  139427 —  1745   537 A   65 ù  413 Œ  3790 ˝  509 ˇ  767 7   55 ù   157   538 k&  9835 L   76 	  777 Ω   189 Ï  2028 5l  27701 •
+  2725 ·$  9441 +   43 ;  315 4   52 ◊   215 «  3527    458 J  1354    26 x   120 Ï  748 x  376 Ú   242 i∂  46697 f}  32102     0 Ã  1484   520 1   49 â  35076 ¢  1442 ‰  996 &  5414 5	  2357 q   113 ,
+  2604 –
+  2768 Æ   174 f  870 ~   126 †   160 Á  999   283   5654 ƒ  1220 π  441 Ç  3970 ¥  1460 ∫  698 ß 69799 ·  481 Ì   237 /   47 z%  9594 y2  12921 Aä  35393 —  977 ¬  1218 S@ 82003 X  344 –  3792 ¯  504 Ä  5504 }   125 Ø  8111 È, 142569   1808 (  552 Q   81 ó  407 ë  3985 Ø  943 :   58 ü   159 z   122 `  608 ^(  10334 £   163 √  707 …   201 Ô  2287 ˜	  2551 2'  10034 Ë  2024 :  314 ˇ   255 z  3194 X  600 ˜  1271    29 ™   170   791 5  309 .  302 †¥  46240 ûz  31390   1794 Á   231 ä  35358 a  1377   1046 ˜  5623 ù  2205 ;  2107 ¯  2040 œ
+  2767 [  347 c   99 §   164   1041 Ó  5614 
+  1546   514 î  4244 â  1673 è  655  70933 √   195 G%  9543 õ6  13979  û  40480   1026 l@ 82028   273 ﬁ  478 D  5444 ö   154 4   8244 îH 149652 ê  1680 c  611 ^   94 Ü  390 É  4227 u  1141 a  353 K   75 ú   156 w  631 °+  11169 á  647 Î   235 !
+  2593 ó(  10391 é  2190 0   48 è   143 T   84 ‰   228   3086 M  1613    25 ï  917 L¥  46156   32519 t  2164 ¡   193 ì  37759 Ë  1256 \  1116 ø  5567 ß  1959 t   116 =  1853   2068 Œ
+  2766 ‰  484 Ú  498 x  3960 ‹  2012   284 ‘   212 ï   149 @   64 r   114 »  968   279 „  5859   1051 Æ  430 !  3873   1309 !  545 ≤ 71346 ‰  996 Ò   241    27 :  314 æ&  9918 ﬁ0  12510    5 8ç  36152 t  884 ∫  1210 J–  53322 X  600 Q  3665 ÷  470   4848 M   77 º  8124 G# 140103 È  1769 0  560 @   64 û  414 Ì  3821 Û  499 	  777 /   47 ù   157   539 é&  9870 L   76 ∫   186   2076 l  27665 [
+  2651 I%  9545 ˜  2039 +   43 <  316 2   50 ›   221 º  3516   496   1286    30 x   120 ı  757 u  373 Ó   238 ´µ  46507 (}  32040     0 Õ  1485   520 I   73 	â  35081 •  1445 Â  997 o  5487 ¸  2300 q   113 ;
+  2619 ¥
+  2740 £   163 £  419   3102 é   142 õ   155 Á  999   283 '  5671 ¿  1216 œ  463 ô  3993 ¥  1460 œ  719 ˜ 69879 ﬂ  479 Î   235 è%  9615 £2  12963 ä  35353 ∂  950 ≈  1221 ¸@ 82172 S  339 Ë  3816   513   5640    8210 ¡/ 143297   1798 7  567 R   82 ß  423 µ  4021 <   60 û   158 z   122 e  613 g(  10343 ¶   166 ﬁ  734 …   201 	  2331 à
+  2696 l'  10092 ˆ  2038 )   41 H   72   260 |  3196 E  581 0  1328 ¥   180 8  824 4  308 .  302 ∂¥  46262 5{  31541 B  1858 Á   231 v   118 Cä  35395 V  1366   1049 œ  5583 ~  2174   2079 \  2140 ∫
+  2746 ]  349 d   100 ¢   162   1040 Ò  5617 #  1571 Í  490 Ä  4224 l  1132 ç  653 â 70793 ≈   197 e%  9573 ç6  13965 ïû  40597 ˛  1022 «@ 82119   270 «  455 |  5244 ö   154 f   8294 ≈O 151493 ä  1674 ï  661 ]   93 }  381 ü  4255 è  1167 ^  350 G   71 °   161 Ä  640 Ö+  11141 Å  641 Ê   230 Q
+  2641 ‘(  10452 ò  2200 *   42 -   45 ë   145 T   84   3088 #  547 H  1608    25 ˙   250 »¥  46280 ,  32556 ß  2215 ‡   224 Åî  38017 ƒ  1220 _  1119 …  5577 j  1898 Ä   128 8  1848 Ÿ  2009 Ê
+  2790 .   46 ‘  468 ˙  506 u  3957 ø  1983 #  291 ,  300 D   68 ≠  941 p   112 ∆  966   283 …  5833   1044 ¨  428   3851   1284  71450 ´  939 Ú   242    28 ;  315 ∂&  9910 Ù0  12532    5 $ç  36132 x  888 ∑  1207 %–  53285 X  600 f  3686 ‹  476 Z  5722 M   77 È  8169 Ÿ! 139737 ˇ  1791 0  560 A   65 °  417   3844 Ì  493   781 :   58   542 Z&  9818 U   85 ∫   186 )  2089 ëk  27537 '
+  2599 y%  9593 ˇ  2047 +   43 9  313 5   53 ﬂ   223 ¥  3508 ˆ  502 ˚  1275    25 x   120   772 Ü  390 ¯   248  µ  46538 }  32021     0 …  1481 å  396 2   50 ‚à  35042 v  1398 Â  997 X  5464 ∆  2246 Ï	  2540 ±
+  2737 û   158 ü  415 \  2908 à   136 ñ   150 ‰  996 #  291   5654 ¿  1216 ÿ  472 à  3976 :  1594 –  720 H 70216 Â  485 –   208 /   47 s%  9587 î2  12948 Ââ  35301 ∂  950 »  1224 ¯A 82424 .  302 Œ  3790   514 ¥  5556 Ö   133 ã   8331 ‹/ 143324 ˝  1789 *  554 S   83 ´  427 ∑  4023 æ  958 B   66 s   115 x  632 â(  10377 ’   213 €  731 »   200 Z	  2394 «	  2503 u'  10101   2074 )   41    27 6  310 K   75   260 d  3172 E  581 0  1328 π   185 O  847 2  306 ∂¥  46262 &{  31526 G  1863 Í   234 a   97 ‡â  35296 T  1364   1035 ª  5563 w  2167 á   135   2059 \  2140 ö  410 W  343 c   99 ß   167   1041 Í  5610 +  1579 À  459 Ì  4333 î  1684 ∞  688 ± 70577 …   201 %  9599 ∆6  14022 û  40473   1046 Ω? 81853   271 ù  413 |  5244 ò   152 _   8287 ıN 151285 •  1701 Í  746 ]   93 y  377 ⁄  4314 ò  1176 ]  349 H   72 ¢   162 }  637 2+  11058 Ö  645 Ë   232 ˚  3067 π(  10425 p  2160 *   42 ì   147 ﬁ   222 ¸  3068   523 9  1593    24 ˙   250 öµ  46490 \~  32348 º  2236 ‡   224 øî  38079 ∂  1206 _  1119 .  1838 °   161    1824 ¬  1986 ‘
+  2772 1   49 “  466 ˘  505 ã  1931 +  299 î   148 (  296 €   219 ≈  965 i  3945 Ù  5620        Å ÉÖ												á
+
+
+
+
+
+
+
+
+
+
+ 	
+	â		
+
+
+
+
+ã çè ë	ì	
+ï
+óô õù           !!!!!!!!!!! ü """""""""""!    !###########"!°!!"$$$$$$$$$$$#""""#%%%%%%%%%%%$#£## $&&&&&&&&&&& $$$$%'''''''''   %•%%&(#(((((((''%&&&&')()))))))((&'ß''(*)*******))'(((( )+*+++++++*  )©))*,+,,,,,,,+*(****+-,-------,+)+´++,.-.......-,*,,,,-/.///////.-+-≠--.0/0000000/.,..../101111111,/-/Ø//02!22222     0000131333332200.1±11 242444443311/222235355555%%2203≥334646,66644331444457576777554425µ556868
+8886655366667979799977   7∑778:8:8:::8866488889;9;9;;;997759π99 :<:<<<::886:::: ;=;<$===;;997;ª;;<><=:>>><<::8<<<<=?=>;???==;;9=Ω==>@>?<@@@>><<:>>>>?A?@=AAA??==;?ø??@B@A>BBB@@>><@@ @@ ACAB?CCCAA??=A¡ AABDBC@DDDBB@@>BB!BBCEC AEEECCAA?C√!CCDFDDBFFFDDBB@DD"DDEGEECGGGEECCAE≈"EEFHFFDHHHFFDDBFF#FFGIGGEIIIGGEECG«#GGHJHHFJJJHHFFDHH$HHIKIIGKKKIIGG6I…$IIJLJJHLLLJJHHEJJ%JJKMKKIMMMKK   KÀ%KKLNLLJNNNLLIIFLL&LLM      OMMJJGMÕ&MMN         !KH%•N%O         KLI7∑K7POMMK<OPNNLMJ  @   QPNNLOPQOOMNKMÕfMMRQOOMPQRPPNOLÅ@SRPPNQRSQQOPMATSQQORSTRRPQNÉAUTRRPSTUSSQROBVUSSQTUVTTRSPÖBWVTTRUVWUUSTQCXWUUSVWXVVTURáCYXVVTWXYWWUVSDZYWWUXYZXXVWT	âD		[ZXXVYZ[YYWXU
+
+E
+
+\[YYWZ[\ZZXYVãE]\9;X[\E9 Y%WF ^]ZZY\]][[   çF_^[[Z]^^\\ZZXG`_\\[^__]][[YèGa       H b`]]\_``^^\\ZëHca^^]`aa__]][Idb__^abb``^^\ìIec``_bccaa__]Jfdaa`'ddbb``^ïJgebbaceeccaa_Khfccbdf d bb`óKigddcegfGdccaLjheedfh   d bôL kiffegigeeedcMljggfhjhfffedõMmkhhgikigggfeNnl#ihjljhhhgfùNo CjikmkiiihgO pmikj'nljjjihüOqnjlklomkkkji  P  rokmlmpnll   !°P!!splnmnqommlOj""Q""tqm55orpn%mkk#£Q## urnonpsqonnlG$$R$$vsopoqtrpooml%•RN%wtpqprlsqppnm&&S&&xuqrqsutrqqon'ßS''yvrsrtvusrrpo((T(( zpstsuwvtssqp)©T)){wtutvxwu trq**U**|xuvuwyxvtusr+´U++}yvwvxzywuvts-≠V--~zwxwy{zxvwut..W..{xyxz|{ywxvu/ØW//Ä|y3yE}|z20wv1±X11Å}zzz{~}{x7wNNgON Ç~{{{|4|yyx22Y22É|||}%~}% xy3≥Y33Ñ6}}}~Ä~zzyz44Z44ÖÄ~~~ÅÄ{{z{5µZ55ÜÅÄÇ Ä||{|66[66áÇÄÄÄÅÉÅÅ}}|}88\88à\9;Å[ÑÇ9~~79π\99 âÉÅ ÇÇÖ ÇO}~::]:: äÑÇÅÉÉÜÉÉÄ~;ª];;ãÖÉÇÑÑáÑÄÅÄ<<^<<åÜÑÉÖÖàÖÑÅÇÄ^=Ω^==çáÖÑÜÜâÜÖÇÉÅÅ>>_>>éàÜÖááäáÜÉÑÇÇ?ø_??èB@A>BBB@   <@@`@@ êâáÜààãàáÑÖÉÉA¡`AAë4àáââåâàÖÜÑÑBBaBBí|âàäoçäIÜÖÖC√aCCìääâãäéãâááÜÜDDbDDîããäåãèåäààááE≈bEEïååãçåêçãââààFFcFFñççåéçëéåääââG«cGGóééçèéíèçããääHHdHHòè:éêèìêéå  ãI…dIIôêèèëêîëèçåãåJJeJJöëêêíëïíêéçåç7∑[K7õíëëìíñìëèéçFLLfLLú   î  îí   éOœgPOù         èéèçFQûìí  ìóïìêêèê  Ä   üîi          OœßPO†ïìíïîìñ&ëëêëMÕ¶MM°ñîìñïòóîííëíÅÄ¢óîóñôò     Å£òïïòóöôïììíìÉÅ§ôññôòõöñîîìîÇ•öóóöôúõóïïîïÖÇ¶õòòõöùúòññïñÉßúôôúõûùôóóñóáÉ®ùööùúüûöòòóòÑ©ûõõûù†üõôôòô	âÑ		™üú          
+
+Ö
+
+´†ù,;û?†úööôöãÖ¨°û  ü°°ùõY%WÜ ≠¢üúü†¢¢ûúõöõáÆ£†ù†°££üùúõúèáØ§°û°¢§§†ûùúùëà∞•¢ü¢£••°üûùûâ±¶£†£§¶¶¢†üûüä≤ß§°§•ßß£°†ü†ïäP≥®•          ã¥î¶¢•¶®#§¢°†°óãµ©ß£¶ß©®•£¢°¢å∂ì®  ® ©  £¢£ôå ∑™©§ß©™™¶§§£§ç∏´™•®™´´ß••§•õçπ¨´¶©´¨¨®ó¶•¶é∫≠¨ß™¨≠≠©¶ß¶ßùéªÆ≠®´≠vÆ™ß®ß®è ºØÆ©¨ÆÆØ´®©®©üèΩ∞Ø™≠ØØ∞¨©™©™  ê  æ±∞´Æ∞∞±≠™´™´""ë""ø≤24Ø±±≤Æ´¨´¨çÜQ¿≥±  ≤mkØ¨≠¨≠#£ë## ¡rn¨∞è≤≥o≠Æ≠Æ$$í$$¬¥≤≠         %•íN%√µ≥Æ±≥≥¥∞ÆØÆØ&&ì&&ƒ∂¥Ø≤¥¥µ±Ø∞Ø∞'ßì''≈∑µ∞         ((î(( ∆∏∂±≥µµ∂≤∞±∞±)©î))«π}≤¥∂∂∑≥±≤±≤**ï**»∫∑≥µ∑∑∏¥≤≥≤≥+´ï++…ª∏          -≠ñ-- ºπ¥∂∏∏πµ≥¥≥¥..ó..ÀΩ∫µ∑ππè∂¥µ¥µ/Øó//Ãæª∂∏∫33∑20µ∂1±ò11Õøº  %∫5∏µ∂∂WNNßON Œ¿Ω∑πª∫π∂∑∑∑22ô22œ¡æ∏∫ª*ª∫∑∏∏g3≥ô33–¬øπªºººª∏π3∏44ö44—√¿∫ºΩΩΩºπ∫ππ5µö55“ƒ¡VΩæ≠æΩ∫h∫∫66õ66”≈¬ªæø9øæªªªª88ú88‘∆9  ¿~¿øººº9πú99 ’«√ºø¡æ¡¿ºΩ  ;ªù;;÷»ƒΩ¿ø¬¡ΩzΩΩ<<û<<◊…≈          =Ωû==ÿ ∆æ¡¬¿√¬ææææ>>ü>>ŸÀ«ø¬√¡ƒ√øøøø?øü??⁄Ã0¿√ƒ¬≈ƒ¿¿¿¿A¡†AA€Õ»¡}≈√6≈¡¡¡¡BB°BB‹Œ…¬         C√°CC›œ √ƒ∆ƒ∆∆¬¬¬¬DD¢DDﬁ–Àƒ≈«≈««√√√√E≈¢EEﬂ—Ã´Æ»∆»»ƒƒƒƒFF£FF‡“Õ≈∆…«……≈≈≈ G«£GG·”Œ∆« »  ∆∆∆≈HH§HH‚‘œ«»À…ÀÀ«««∆I…§II„’–»…Ã ÃÃ»»»«JJ•JJ‰”—… éÀÕÕ………»7∑õK7Â÷“ ÀÕÃŒŒ   …LL¶LLÊ ”ÀÃŒÕœÀ0À PP®RQ Á  ÃÕ          Ä  Ë  Õ•œŒœ–ÃÀÃÀOœßPOÈ  ŒŒ–œ—ÕÃÕÃ
+
+Ö
+
+Í  œœ        ÜÎ  ––—––“ŒÕŒ ãÏ  ——        ôåÌ  j“        #£ë##Ó  “”“——”œŒœÕ-≠ñ--Ô  3œ        NNßON  ”‘        9πú99Ò  ‘         ::ù::Ú  ’’”““‘–œ–Œ=Ωû==Û   ÷‘””’—ÆlœC√°CC Ù    ®       Q—®SRı    ’,‘÷“–  ((î((ˆ    ÷‘’     ::ù:: ˜     ’÷◊——l∑Q—®SR ¯      ~ÿ%“  RR©TS ˘       Ÿ”Ç—–Ç©T˙          “RR™TU ˚          3—(®™(V¸          ”“;;´;W˝           ”ñ£˛           ‘G«´GG
