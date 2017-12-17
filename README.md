@@ -39,6 +39,3 @@ book.
 * [QlikView 11 for Developers](https://www.packtpub.com/big-data-and-business-intelligence/qlikview-11-developers?utm_source=github&utm_medium=repository&utm_campaign=9781849686068)
 
 * [QlikView for Finance](https://www.packtpub.com/application-development/qlikview-finance?utm_source=github&utm_medium=repository&utm_campaign=9781784395742)
-
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
